@@ -1,17 +1,17 @@
 <template>
   <div>
     <div
-      data-delay="4000"
-      data-animation="cross"
       class="hero-slider w-slider"
+      data-animation="cross"
       data-autoplay="true"
+      data-autoplay-limit="15"
+      data-delay="4000"
+      data-disable-swipe="true"
+      data-duration="800"
       data-easing="ease"
       data-hide-arrows="false"
-      data-disable-swipe="true"
-      data-autoplay-limit="15"
-      data-nav-spacing="3"
-      data-duration="800"
       data-infinite="true"
+      data-nav-spacing="3"
     >
       <div class="slide-mask w-slider-mask">
         <div
@@ -37,23 +37,23 @@
               </div>
               <div class="button-wrapper">
                 <a
+                  class="button-playstore w-inline-block"
                   href="https://play.google.com/store/apps/details?id=com.hervest&amp;hl=en"
                   target="_blank"
-                  class="button-playstore button-play google-play w-inline-block"
                 />
                 <a
+                  class="button-appstore w-inline-block"
                   href="https://apps.apple.com/ng/app/hervest/id1509714516"
                   target="_blank"
-                  class="button btn-round-radius app-store w-inline-block"
                 />
               </div>
             </div>
             <div class="hero-image-block">
               <img
-                :src="mediaUrl + slideData.image_url"
-                loading="lazy"
                 alt=""
                 class="slide-image"
+                loading="lazy"
+                :src="mediaUrl + slideData.image_url"
               >
               <div class="slide-card">
                 <div>
