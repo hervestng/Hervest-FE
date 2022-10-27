@@ -69,8 +69,8 @@
               </div>
               <div class="slide-card four">
                 <div>
-                  Your investment in ED Farms has matured with a
-                  <span class="green-text">12%</span> increase.
+                  Your investment in Maize  has matured with a
+                  <span class="green-text">12%</span> interest.
                 </div>
               </div>
             </div>

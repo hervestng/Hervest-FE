@@ -209,10 +209,10 @@ blockquote {
 .button-playstore {
   padding: 18px 35px;
   min-height: 55px;
-  min-width: 150px;
+  min-width: 140px;
   background-image: url('../images/google-play-icon-hv.svg');
   border: 1px solid #540a45;
-  border-radius: 10px;
+  border-radius: 8px;
   background-position: 50% 50%;
   background-size: auto 45%;
   background-repeat: no-repeat;
@@ -221,11 +221,11 @@ blockquote {
 .button-appstore {
   padding: 18px 35px;
   min-height: 55px;
-  min-width: 150px;
+  min-width: 140px;
   margin-left: 2vw;
   background-image: url('../images/appstore-icon-hv.svg');
   border: 1px solid #540a45;
-  border-radius: 10px;
+  border-radius: 8px;
   background-position: 50% 50%;
   background-size: auto 45%;
   background-repeat: no-repeat;
@@ -1206,7 +1206,8 @@ blockquote {
   z-index: 1;
   width: 21vw;
   height: 42vw;
-  background-image: url('../images/iphone-12--black.png');
+  /* background-image: url('../images/App_Mockup_Website.png'); */
+  background-image: url('../images/hv-phone-1.png');
   background-position: 50% 50%;
   background-size: contain;
   background-repeat: no-repeat;
@@ -1217,7 +1218,7 @@ blockquote {
   width: 17vw;
   height: 34vw;
   margin-left: -10vw;
-  background-image: url('../images/iphone-12--black-1.png');
+  background-image: url('../images/hv-phone-2.png');
   background-size: contain;
 }
 
