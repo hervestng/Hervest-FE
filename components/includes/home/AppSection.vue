@@ -3,7 +3,7 @@
     <div class="app-inner-block">
       <div class="mockup-wrapper">
         <div class="phone-mockup" />
-        <!-- <div class="phone-mockup small" /> -->
+        <div class="phone-mockup small" />
       </div>
       <div class="app-details-block">
         <div class="app-text-wrapper">
@@ -15,7 +15,7 @@
         <div class="app-ratings-wrapper">
           <div class="star-rating-block" />
           <div class="divider" />
-          <div>Finance 4.6 Stars</div>
+          <div>AVG. APP RATING <strong>4.4 Stars</strong></div>
         </div>
         <div class="button-wrapper">
           <a
@@ -38,9 +38,9 @@
 export default {}
 </script>
 
-<style scoped>
+<!-- <style scoped>
 .phone-mockup {
   background-image: url('@/static/assets/images/App_Mockup_Website.png');
   width: 24rem;
 }
-</style>
+</style> -->
