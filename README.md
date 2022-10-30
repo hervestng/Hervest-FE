@@ -1,4 +1,6 @@
-# hervest
+# HerVest Landing Page
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/3aaf6eb5-b4ab-4d6c-a060-2ac6eaf849c9/deploy-status)](https://app.netlify.com/sites/hervestfe/deploys)
 
 ## Build Setup
 
