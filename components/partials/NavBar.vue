@@ -1,7 +1,6 @@
 <template>
   <div class="nav">
     <nuxt-link class="logo w-inline-block w--current" to="/" />
-
     <div class="nav-link-wrapper">
       <nuxt-link class="nav-link w-inline-block" to="/about">
         About
