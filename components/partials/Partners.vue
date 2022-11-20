@@ -5,45 +5,54 @@
     </h2>
     <div class="partners-logo-wrapper">
       <div class="partner-logo-block">
-        <img
-          src="@/static/assets/images/usaid-logo.png"
-          loading="lazy"
-          alt=""
-          class="partner-logo"
-        >
+        <a href="https://www.usaid.gov/innovation/nigeriacovid19/winners" target="_blank">
+          <img
+            alt=""
+            class="partner-logo"
+            loading="lazy"
+            src="@/static/assets/images/usaid-logo.png"
+          >
+        </a>
+      </div>
+      <div class="partner-logo-block">
+        <a href="https://africa.googleblog.com/2022/09/meet-google-for-startups-black-founders.html" target="_blank">
+          <img
+            alt=""
+            class="partner-logo"
+            loading="lazy"
+            src="@/static/assets/images/google-logo.png"
+          >
+        </a>
+      </div>
+      <div class="partner-logo-block">
+        <a href="https://guardian.ng/news/kwara-hervest-partner-to-help-1000-women-farmers/" target="_blank">
+          <img
+            alt=""
+            class="partner-logo"
+            loading="lazy"
+            src="@/static/assets/images/Kwara_State_Govt_Greyscale.png"
+          >
+        </a>
+      </div>
+      <div class="partner-logo-block">
+        <a href="https://www.youtube.com/watch?v=Dio55QayBac" target="_blank">
+          <img
+            alt=""
+            class="partner-logo"
+            loading="lazy"
+            src="@/static/assets/images/Flutterwave_Greyscale.png"
+          >
+        </a>
       </div>
       <div class="partner-logo-block">
         <img
-          src="@/static/assets/images/google-logo.png"
-          loading="lazy"
           alt=""
           class="partner-logo"
-        >
-      </div>
-      <div class="partner-logo-block">
-        <img
-          src="@/static/assets/images/Kwara_State_Govt_Greyscale.png"
           loading="lazy"
-          alt=""
-          class="partner-logo"
-        >
-      </div>
-      <div class="partner-logo-block">
-        <img
-          src="@/static/assets/images/Flutterwave_Greyscale.png"
-          loading="lazy"
-          alt=""
-          class="partner-logo"
-        >
-      </div>
-      <div class="partner-logo-block">
-        <img
           src="@/static/assets/images/V Bank (1) 1.png"
-          loading="lazy"
-          alt=""
-          class="partner-logo"
+          width="185"
         >
-      </div>     
+      </div>
     </div>
   </div>
 </template>
