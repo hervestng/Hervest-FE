@@ -144,7 +144,7 @@
       <h4 class="cookie-notice">
         This site uses cookies.
         <a class="pink-text"
-          href="https://app.hervest.ng/hervest_docs/HerVest-Cookies-Docs.pdf"
+          href="https://staging--hervestfe.netlify.app/hervest_docs/HerVest-Cookies-Docs.pdf"
           @click.native="scrollToTop">Cookie Policy.
         </a>
         I agree to the
