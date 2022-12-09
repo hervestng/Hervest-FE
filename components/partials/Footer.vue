@@ -70,27 +70,30 @@
         <div>
           <strong>{{ footerData.col_3 }}</strong>
         </div>
-        <nuxt-link
-          to="privacy-policy"
+        <a
+          href="https://hervest.docsend.com/view/5k6rw5khwg9xk2b2"
+          target="_blank"
           class="footer-link top w-inline-block"
           @click.native="scrollToTop"
         >
           <div>Cookies Policy</div>
-        </nuxt-link>
-        <nuxt-link
+        </a>
+        <a
           class="footer-link w-inline-block"
-          to="/privacy-policy"
+          href="https://hervest.docsend.com/view/3hq9g2wtya59nbmk"
+          target="_blank"
           @click.native="scrollToTop"
         >
           Privacy Policy
-        </nuxt-link>
-        <nuxt-link
-          to="privacy-policy"
+        </a>
+        <a
+          href="https://hervest.docsend.com/view/jgpx32jjrtzectew"
+          target="_blank"
           class="footer-link w-inline-block"
           @click.native="scrollToTop"
         >
           <div>Terms of Services</div>
-        </nuxt-link>
+        </a>
       </div>
       <div class="footer-nav-wrapper socials">
         <div>
@@ -143,25 +146,39 @@
     <div>
       <h4 class="cookie-notice">
         This site uses cookies.
+<<<<<<< Updated upstream
         <a class="pink-text"
           href="https://staging--hervestfe.netlify.app/hervest_docs/HerVest-Cookies-Docs.pdf"
           @click.native="scrollToTop">Cookie Policy.
+=======
+        <a
+          class="pink-text"
+          href="https://hervest.docsend.com/view/5k6rw5khwg9xk2b2"
+          target="_blank"
+          @click.native="scrollToTop"
+        > Cookie Policy.
+>>>>>>> Stashed changes
         </a>
         I agree to the
-        <nuxt-link
-          to="/privacy-policy"
+        <a
+          href="https://hervest.docsend.com/view/jgpx32jjrtzectew"
+          target="_blank"
           class="pink-text"
           @click.native="scrollToTop"
         >
           terms of use
-        </nuxt-link>, and the
-        <nuxt-link
-          to="/privacy-policy"
+        </a>, and the
+        <a
+          href="https://hervest.docsend.com/view/3hq9g2wtya59nbmk"
+          target="_blank"
           class="pink-text"
           @click.native="scrollToTop"
         >
           Disclaimer Policy.
-        </nuxt-link>This Information will not be used for marketing purposes.
+        </a>This Information will not be used for marketing purposes.
+        <!-- <nuxt-link to="/privacy-policy" class="pink-text" @click.native="scrollToTop">
+            Policy Link
+        </nuxt-link> -->
       </h4>
       <div class="footer-line" />
       <div class="copyright w-embed w-script">
