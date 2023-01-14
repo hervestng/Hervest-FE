@@ -20,10 +20,10 @@
               <div class="address-icon" />
               <div>
                 <a
-                  href="https://goo.gl/maps/Tpckk8Dq1386XhwN6"
+                  href="https://goo.gl/maps/wf6zZhW17pVdSSVj9"
                   target="_blank"
                   class="address-link"
-                >23, Hughes Avenue, Alagomeji. Yaba, Lagos State.</a>
+                >13, Ibikunle Street, Yaba, Lagos State.</a>
               </div>
             </div>
             <div class="phone-block">
