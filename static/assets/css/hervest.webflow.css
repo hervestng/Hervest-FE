@@ -1,3 +1,7 @@
+#es-header {
+  display: none !important;
+}
+
 body {
   font-family: Satoshi, sans-serif;
   color: #000;
