@@ -2,22 +2,27 @@
   <div class="nav">
     <nuxt-link class="logo w-inline-block w--current" to="/" />
     <div class="nav-link-wrapper">
-      <nuxt-link class="nav-link w-inline-block" to="/about">
+      <!-- <nuxt-link class="nav-link w-inline-block" to="/about">
         About
-      </nuxt-link>
-      <a class="nav-link w-inline-block" href="https://hervest.medium.com/" target="_blank">Insights
-      </a>
-      <!-- <nuxt-link class="nav-link w-inline-block" to="/faqs">
-        FAQ
       </nuxt-link> -->
-      <nuxt-link class="nav-link w-inline-block" to="/contact">
-        Contact
+      <nuxt-link class="nav-link w-inline-block" to="/invest">
+        Save & Invest
       </nuxt-link>
+      <!-- <a class="nav-link w-inline-block" href="https://hervest.medium.com/" target="_blank">Insights
+      </a> -->
+      <a class="nav-link w-inline-block" href="https://insights.hervest.ng" target="_blank">Learn
+      </a>
+      <nuxt-link class="nav-link w-inline-block" to="/faqs">
+        FAQs
+      </nuxt-link>
+      <!-- <nuxt-link class="nav-link w-inline-block" to="/contact">
+        Contact
+      </nuxt-link> -->
       <a class="nav-link w-inline-block" href="https://staging--hervestapp.netlify.app/" target="_blank">Log In
       </a>
       <!-- <a class="w-inline-block-filled-login" href="https://staging--hervestapp.netlify.app/" target="_blank">Log In
       </a> -->
-      <a class="w-inline-block-filled-signup" href="https://staging--hervestapp.netlify.app/Signup" target="_blank">Sign Up
+      <a class="w-inline-block-filled-signup" href="https://staging--hervestapp.netlify.app/Signup" target="_blank">Create A Free Account
       </a>
 
       <div class="w-embed" />

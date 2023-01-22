@@ -109,6 +109,24 @@ html.w-mod-touch * {
   border: 1px #b50382 solid;
 }
 
+.cta-inline-block-filled-signup {
+  background-color: #540b45;
+  color: #fff;
+  border-radius: 8px;
+  padding: 16px 48px;
+  border: 1px #540b45 solid;
+  margin-right: 0vw;
+  margin-bottom: -10px;
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 25px;
+  font-weight: 400;
+}
+
+.cta-inline-block-filled-signup:hover {
+  background-color: #b50382;
+  border: 1px #b50382 solid;
+}
 
 .w-clearfix:before,
 .w-clearfix:after {

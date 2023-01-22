@@ -1,5 +1,89 @@
-#es-header {
-  display: none !important;
+.stats-slider-section {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 4vw;
+  padding-bottom: 4vw;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.stats-slider-inner {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.stats-slide {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 4vw;
+  padding-top: 3vw;
+  padding-bottom: 3vw;
+  padding-left: 4vw;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  border-radius: 10px;
+  background-color: #e6f6f1;
+}
+
+.stats-slide.light-green {
+  background-color: #f3fbf8;
+}
+
+.stats-text-block {
+  max-width: 375px;
+}
+
+.stats-text-block.small {
+  max-width: 248px;
+}
+
+.stats-image-block {
+  width: 150px;
+  height: 180px;
+  margin-left: 20px;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+}
+
+.stats-image {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+  object-fit: contain;
+  -o-object-position: 100% 50%;
+  object-position: 100% 50%;
+}
+
+.cta-button-wrapper {
+  max-width: 420px;
+  margin-top: 0vw;
+  margin-bottom: 2vw;
 }
 
 body {
@@ -226,7 +310,7 @@ blockquote {
   padding: 18px 35px;
   min-height: 55px;
   min-width: 140px;
-  margin-left: 2vw;
+  margin-left: 1vw;
   background-image: url('../images/appstore-icon-hv.svg');
   border: 1px solid #540a45;
   border-radius: 8px;
@@ -460,13 +544,13 @@ blockquote {
 }
 
 .partner-logo-block {
-  -webkit-filter: grayscale(100%);
-  filter: grayscale(100%);
+  /* -webkit-filter: grayscale(100%);
+  filter: grayscale(100%); */
 }
 
 .partner-logo {
   max-height: 5vw;
-  max-width: 15vw;
+  max-width: 10vw;
   -o-object-fit: contain;
   object-fit: contain;
 }
@@ -1239,7 +1323,7 @@ blockquote {
 
 .social-section {
   overflow: hidden;
-  padding-bottom: 5vw;
+  /* padding-bottom: 5vw; */
   background-color: rgba(241, 201, 227, 0.12);
 }
 

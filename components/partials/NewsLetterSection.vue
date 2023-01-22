@@ -2,13 +2,21 @@
   <div class="newsletter-section">
     <div class="newsletter-text-wrapper">
       <h2 class="no-margin capitalize">
-        {{ newsLetterData.title }}
+        <!-- {{ newsLetterData.title }} -->
+        Money Personality
       </h2>
       <h4 class="no-margin">
-        {{ newsLetterData.description }}
+        <!-- {{ newsLetterData.description }} -->
+        40,000 women on HerVest know their money personality
+        Take yours today to discover why you act around money the way you do.
       </h4>
     </div>
-    <div class="subscribe-form w-form">
+    <div class="cta-button-wrapper">
+      <a class="cta-inline-block-filled-signup" href="https://staging--hervestapp.netlify.app/Signup" target="_blank">
+        Find Out Now
+      </a>
+    </div>
+    <!-- <div class="subscribe-form w-form">
       <form
         id="email-form"
         name="email-form"
@@ -42,7 +50,7 @@
           Oops! Something went wrong while subscribing, please try again!
         </div>
       </div>
-    </div>
+    </div> -->
   </div>
 </template>
 

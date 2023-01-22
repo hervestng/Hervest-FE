@@ -21,7 +21,7 @@
         >
           <div class="hero">
             <div class="hero-text-wrapper">
-              <h2 class="purple-text no-margin capital">
+              <!-- <h2 class="purple-text no-margin capital">
                 {{
                   slideData.caption === 'Her' ? 'Here for ' : widgetData.tagline
                 }}
@@ -29,11 +29,25 @@
               </h2>
               <h1 class="h0 purple-text no-margin uppercase light-text">
                 {{ slideData.caption }}
+              </h1> -->
+              <h2 class="purple-text no-margin capital">
+                Helping You
+              </h2>
+              <h1 class="h0 purple-text no-margin uppercase light-text">
+                Grow
               </h1>
+              <h2 class="purple-text no-margin capital">
+                Your Money
+              </h2>
               <div class="hero-subtext-wrapper">
                 <h3 class="light-text no-margin">
                   {{ widgetData.description }}
                 </h3>
+              </div>
+              <div class="cta-button-wrapper">
+                <a class="cta-inline-block-filled-signup" href="https://staging--hervestapp.netlify.app/Signup" target="_blank">Create A
+                  Free Account
+                </a>
               </div>
               <div class="button-wrapper">
                 <a
