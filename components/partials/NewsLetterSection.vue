@@ -13,7 +13,7 @@
     </div>
     <div class="cta-button-wrapper">
       <a class="cta-inline-block-filled-signup" href="https://staging--hervestapp.netlify.app/Signup" target="_blank">
-        Find Out Now
+        Take the Test Now
       </a>
     </div>
     <!-- <div class="subscribe-form w-form">

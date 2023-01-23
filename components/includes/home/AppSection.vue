@@ -43,14 +43,16 @@
             Reach your goals while earning juicy interest on the go.
           </h4>
           <!-- </div> -->
-          <div class="cta-button-wrapper">
-            <a class="cta-inline-block-filled-signup" href="https://staging--hervestapp.netlify.app/Signup" target="_blank">
-              Create A Free Account
-            </a>
-          </div>
-          <div class="button-wrapper">
-            <a class="button-playstore w-inline-block" href="https://play.google.com/store/apps/details?id=com.hervest&amp;hl=en" target="_blank" />
-            <a class="button-appstore w-inline-block" href="https://apps.apple.com/ng/app/hervest/id1509714516" target="_blank" />
+          <div class="app-buttons-wrapper">
+            <div class="cta-button-wrapper">
+              <a class="cta-inline-block-filled-signup" href="https://staging--hervestapp.netlify.app/Signup" target="_blank">
+                Create A Free Account
+              </a>
+            </div>
+            <div class="button-wrapper">
+              <a class="button-playstore w-inline-block" href="https://play.google.com/store/apps/details?id=com.hervest&amp;hl=en" target="_blank" />
+              <a class="button-appstore w-inline-block" href="https://apps.apple.com/ng/app/hervest/id1509714516" target="_blank" />
+            </div>
           </div>
         </div>
         <!-- <div class="app-text-wrapper">
@@ -97,5 +99,10 @@ export default {}
 
 .value-block{
     padding: 20px !important;
+}
+
+.app-buttons-wrapper {
+  display: block;
+  margin: 0 auto;
 }
 </style>
