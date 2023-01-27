@@ -1333,7 +1333,6 @@ blockquote {
   z-index: 1;
   width: 21vw;
   height: 42vw;
-  /* background-image: url('../images/App_Mockup_Website.png'); */
   background-image: url('../images/hv-phone-1.png');
   background-position: 50% 50%;
   background-size: contain;
