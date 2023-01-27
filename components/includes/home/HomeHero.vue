@@ -45,8 +45,8 @@
                 </h3>
               </div>
               <div class="cta-button-wrapper">
-                <a class="cta-inline-block-filled-signup" href="https://staging--hervestapp.netlify.app/Signup" target="_blank">Create A
-                  Free Account
+                <a class="cta-inline-block-filled-signup" href="https://staging--hervestapp.netlify.app/Signup" target="_blank">
+                  Create A Free Account
                 </a>
               </div>
               <div class="button-wrapper">

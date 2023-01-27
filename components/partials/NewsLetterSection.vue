@@ -7,13 +7,12 @@
       </h2>
       <h4 class="no-margin">
         <!-- {{ newsLetterData.description }} -->
-        40,000 women on HerVest know their money personality
-        Take yours today to discover why you act around money the way you do.
+        Over 40,000 women on HerVest know their money personality
       </h4>
     </div>
     <div class="cta-button-wrapper">
-      <a class="cta-inline-block-filled-signup" href="https://staging--hervestapp.netlify.app/Signup" target="_blank">
-        Take the Test Now
+      <a class="cta-inline-block-filled-signup" href="https://form.typeform.com/to/ilQ26C" target="_blank">
+        Discover Yours Today
       </a>
     </div>
     <!-- <div class="subscribe-form w-form">
