@@ -40,7 +40,7 @@
       <div class="mission-slide">
         <div class="mission-text-block">
           <h1 class="no-margin capitalize">
-            <span class="alt-font">Diversify your portfolio</span>. Save and earn interest in <span class="alt-font">dollars</span>
+            <span class="alt-font">Diversify your portfolio</span>. I and earn interest in <span class="alt-font">dollars</span>
           </h1>
         </div>
         <div class="mission-image-block">

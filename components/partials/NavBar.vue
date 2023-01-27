@@ -11,7 +11,7 @@
       <!-- <a class="nav-link w-inline-block" href="https://insights.hervest.ng" target="_blank">Learn
       </a> -->
       <nuxt-link class="nav-link w-inline-block" to="/insights">
-        Insights
+        Learn
       </nuxt-link>
       <nuxt-link class="nav-link w-inline-block" to="/faqs">
         FAQs
