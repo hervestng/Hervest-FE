@@ -105,6 +105,25 @@
   border: 1px #b50382 solid;
 }
 
+.cta-inline-block-filled-invert {
+  color: #fff;
+  border-radius: 8px;
+  padding: 16px 48px;
+  background-color: #b50382;
+  border: 1px #b50382 solid;
+  margin-right: 0vw;
+  margin-bottom: -10px;
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 25px;
+  font-weight: 400;
+}
+
+.cta-inline-block-filled-invert:hover {
+    background-color: #540b45;
+    border: 1px #fff solid;
+}
+
 body {
   font-family: Satoshi, sans-serif;
   color: #000;

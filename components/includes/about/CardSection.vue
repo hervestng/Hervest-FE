@@ -51,7 +51,7 @@
                 Save towards multiple goals with <br> a personal savings plan.
               </div>
             </div>
-            <!-- <div class="stats-line" /> -->
+            <div class="stats-line" />
           </div>
           <div class="stack-image-block">
             <img
@@ -75,17 +75,16 @@
           </div>
           <div class="stack-stats-block">
             <div>
-              <!-- <div class="up grey-text">
-                Up to
-              </div>
-              <div class="stat-percent">
-                15
-              </div> -->
               <div class="stat-text grey-text">
-                 Get higher-than-average returns<br> on your HerVest savings account.
+                 Get higher-than-average returns<br> on your HerVest savings plan.
               </div>
             </div>
-            <div class="stats-line three" />
+            <!-- <div class="stats-line three" /> -->
+          </div>
+          <div class="cta-button-wrapper">
+            <a class="cta-inline-block-filled-invert" href="https://hervestng.app.link" target="_blank">
+              Start Saving
+            </a>
           </div>
           <div class="stack-image-block">
             <img
@@ -152,7 +151,12 @@
                 available resources
               </div>
             </div>
-            <div class="stats-line five" />
+            <!-- <div class="stats-line five" /> -->
+          </div>
+          <div class="cta-button-wrapper">
+            <a class="cta-inline-block-filled-signup" href="/insights" target="_blank">
+              Learn Now
+            </a>
           </div>
           <div class="stack-image-block">
             <img
