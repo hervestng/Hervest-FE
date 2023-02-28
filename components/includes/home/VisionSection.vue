@@ -3,10 +3,10 @@
     <div class="vision-inner-block">
       <div class="vision-image-block">
         <img
-          :src="mediaUrl + widgetData.vision.featured_image"
-          loading="lazy"
           alt=""
           class="vision-image"
+          loading="lazy"
+          :src="mediaUrl + widgetData.vision.featured_image"
         >
       </div>
       <div class="vision-text-block">
@@ -16,8 +16,8 @@
         <div class="vision-text-wrapper">
           <div
             v-marked="widgetData.vision.content.description"
-            style="font-size: 47px; line-height: 1.3em"
             class="markedText"
+            style="font-size: 47px; line-height: 1.3em"
           />
         </div>
       </div>
@@ -62,16 +62,16 @@
       </div>
       <div class="vision-image-block long">
         <img
-          src="@/static/assets/images/home-img-2.jpg"
+          alt=""
+          class="vision-image"
           loading="lazy"
           sizes="(max-width: 479px) 90vw, (max-width: 767px) 86vw, (max-width: 991px) 38vw, 36vw"
+          src="@/static/assets/images/home-img-2.jpg"
           srcset="
             @/static/assets/images/home-img-2-p-500.jpeg 500w,
             @/static/assets/images/home-img-2-p-800.jpeg 800w,
             @/static/assets/images/home-img-2.jpg        913w
           "
-          alt=""
-          class="vision-image"
         >
       </div>
     </div>

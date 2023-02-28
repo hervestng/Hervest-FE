@@ -3,10 +3,11 @@
     <NavBar :is-home-page="true" />
     <HomeHero :widget-data="pageData.data.attributes.hero" />
     <Partners :widget-data="aboutPageData.data.attributes.partners" />
-    <MissionSection />
-    <MissionSliderSection />
-    <VisionSection :widget-data="pageData.data.attributes" />
-    <CommunitySection :widget-data="pageData.data.attributes.community" />
+    <!-- <MissionSection /> -->
+    <StatsSliderSection />
+    <!-- <VisionSection :widget-data="pageData.data.attributes" /> -->
+    <!-- <CommunitySection :widget-data="pageData.data.attributes.community" /> -->
+    <CardSection />
     <TestimonialSection :widget-data="testimonials.data" />
     <AppSection />
     <SocialSection />

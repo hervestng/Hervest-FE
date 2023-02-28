@@ -1,5 +1,127 @@
-#es-header {
-  display: none !important;
+.stats-slider-section {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 4vw;
+  padding-bottom: 4vw;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.stats-slider-inner {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.stats-slide {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 4vw;
+  padding-top: 3vw;
+  padding-bottom: 3vw;
+  padding-left: 4vw;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  border-radius: 10px;
+  background-color: #e6f6f1;
+}
+
+.stats-slide.light-green {
+  background-color: #f3fbf8;
+}
+
+.stats-text-block {
+  max-width: 375px;
+}
+
+.stats-text-block.small {
+  max-width: 248px;
+}
+
+.stats-image-block {
+  width: 150px;
+  height: 180px;
+  margin-left: 20px;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+}
+
+.stats-image {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+  object-fit: contain;
+  -o-object-position: 100% 50%;
+  object-position: 100% 50%;
+}
+
+.cta-button-wrapper {
+  max-width: 420px;
+  margin-top: 0vw;
+  margin-bottom: 2vw;
+}
+
+.cta-inline-block-filled-signup {
+  background-color: #540b45;
+  color: #fff;
+  border-radius: 8px;
+  padding: 16px 48px;
+  border: 1px #540b45 solid;
+  margin-right: 0vw;
+  margin-bottom: -10px;
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 25px;
+  font-weight: 400;
+}
+
+.cta-inline-block-filled-signup:hover {
+  background-color: #b50382;
+  border: 1px #b50382 solid;
+}
+
+.cta-inline-block-filled-invert {
+  color: #fff;
+  border-radius: 8px;
+  padding: 16px 48px;
+  background-color: #b50382;
+  border: 1px #b50382 solid;
+  margin-right: 0vw;
+  margin-bottom: -10px;
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 25px;
+  font-weight: 400;
+}
+
+.cta-inline-block-filled-invert:hover {
+    background-color: #540b45;
+    border: 1px #fff solid;
 }
 
 body {
@@ -159,8 +281,8 @@ blockquote {
   width: 8.7vw;
   height: 3.5vw;
   margin-right: 3vw;
-  background-image: url('../images/HerVest-Logo-1.svg');
-  background-position: 50% 50%;
+  background-image: url('../images/HerVest-Logo-new.svg');
+  background-position: 100% 100%;
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -168,7 +290,7 @@ blockquote {
 .logo.invert {
   width: 12vw;
   height: 5vw;
-  background-image: url('../images/HerVest-Logo-white.svg');
+  background-image: url('../images/HerVest-Logo-new-white.svg');
 }
 
 .nav-link {
@@ -208,6 +330,7 @@ blockquote {
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
+  border-radius: 10px;
 }
 
 .button-playstore {
@@ -226,7 +349,7 @@ blockquote {
   padding: 18px 35px;
   min-height: 55px;
   min-width: 140px;
-  margin-left: 2vw;
+  margin-left: 1vw;
   background-image: url('../images/appstore-icon-hv.svg');
   border: 1px solid #540a45;
   border-radius: 8px;
@@ -460,13 +583,13 @@ blockquote {
 }
 
 .partner-logo-block {
-  -webkit-filter: grayscale(100%);
-  filter: grayscale(100%);
+  /* -webkit-filter: grayscale(100%);
+  filter: grayscale(100%); */
 }
 
 .partner-logo {
   max-height: 5vw;
-  max-width: 15vw;
+  max-width: 10vw;
   -o-object-fit: contain;
   object-fit: contain;
 }
@@ -856,7 +979,7 @@ blockquote {
   border-radius: 7px;
   background-color: rgba(84, 4, 69, 0.03);
   color: #b60082;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 24px;
   font-weight: 700;
   text-transform: uppercase;
@@ -1161,7 +1284,7 @@ blockquote {
   -webkit-box-align: center;
   -webkit-align-items: center;
   -ms-flex-align: center;
-  align-items: center;
+  align-items: flex-start;
   border-radius: 30px;
   background-color: rgba(235, 203, 226, 0.5);
   color: #540445;
@@ -1210,7 +1333,6 @@ blockquote {
   z-index: 1;
   width: 21vw;
   height: 42vw;
-  /* background-image: url('../images/App_Mockup_Website.png'); */
   background-image: url('../images/hv-phone-1.png');
   background-position: 50% 50%;
   background-size: contain;
@@ -1239,7 +1361,7 @@ blockquote {
 
 .social-section {
   overflow: hidden;
-  padding-bottom: 5vw;
+  /* padding-bottom: 5vw; */
   background-color: rgba(241, 201, 227, 0.12);
 }
 
@@ -1465,6 +1587,7 @@ blockquote {
   border-style: solid;
   border-width: 1px;
   border-color: #b50182;
+  border-radius: 5px;
 }
 
 .news-block.filled {
@@ -4069,6 +4192,19 @@ blockquote {
 }
 
 @media screen and (max-width: 991px) {
+
+  .cta-button-wrapper {
+    max-width: 420px;
+    margin-top: 0vw;
+    margin-bottom: 3vw;
+  }
+
+  .cta-inline-block-filled-signup {
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 400;
+  }
+
   h1 {
     font-size: 35px;
     line-height: 40px;
@@ -5006,6 +5142,19 @@ blockquote {
 }
 
 @media screen and (max-width: 767px) {
+
+  .cta-button-wrapper {
+    max-width: 360px;
+    margin-top: 0vw;
+    margin-bottom: 4vw;
+  }
+
+  .cta-inline-block-filled-signup {
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 400;
+  }
+
   h4 {
     line-height: 32px;
   }
@@ -6503,6 +6652,18 @@ blockquote {
 }
 
 @media screen and (max-width: 479px) {
+
+  .cta-button-wrapper {
+    max-width: 240px;
+    margin-bottom: 6vw;
+  }
+
+  .cta-inline-block-filled-signup {
+    font-size: 14px;
+    line-height: 25px;
+    font-weight: 400;
+  }
+
   h1 {
     font-size: 30px;
     line-height: 35px;
@@ -6757,6 +6918,7 @@ blockquote {
   }
 
   .news-block {
+    border-radius: 5px;
     height: 55px;
     min-width: 230px;
   }

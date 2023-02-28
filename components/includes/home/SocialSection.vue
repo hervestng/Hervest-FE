@@ -30,7 +30,7 @@
           <div>Visit our Instagram page</div>
         </a>
       </div>
-      <div
+      <!-- <div
         class="embedsocial-hashtag"
         data-ref="3946e7f6dbddafd2041849053e91afd8f21e9be4"
       />
@@ -45,7 +45,7 @@
         js.src = 'https://embedsocial.com/cdn/ht.js'
         d.getElementsByTagName('head')[0].appendChild(js)
         })(document, 'script', 'EmbedSocialHashtagScript')
-      </script>
+      </script> -->
     </div>
   </div>
 </template>
@@ -55,7 +55,16 @@ export default {}
 </script>
 
 <style>
-.es-title {
+#es-header .es-title {
   color: #fff !important;
+  display: none !important;
+}
+
+#es-header {
+  display: none !important;
+}
+
+#es-carousel .es-free {
+display: none !important;
 }
 </style>
