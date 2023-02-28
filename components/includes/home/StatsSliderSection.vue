@@ -12,13 +12,7 @@
             alt=""
             class="mission-image"
             loading="lazy"
-            sizes="(max-width: 479px) 120px, (max-width: 767px) 150px, 17vw"
-            src="@/static/assets/images/mission-slide-img.png"
-            srcset="
-              @/static/assets/images/mission-slide-img-p-500.png 500w,
-              @/static/assets/images/mission-slide-img-p-800.png 800w,
-              @/static/assets/images/mission-slide-img.png       930w
-            "
+            src="@/static/assets/images/transfer.png"
           >
         </div>
       </div>
@@ -33,14 +27,14 @@
             alt=""
             class="mission-image"
             loading="lazy"
-            src="@/static/assets/images/mission-slide-img-2.svg"
+            src="@/static/assets/images/savings.png"
           >
         </div>
       </div>
       <div class="mission-slide">
         <div class="mission-text-block">
           <h1 class="no-margin capitalize">
-            <span class="alt-font">Diversify your portfolio</span>. I and earn interest in <span class="alt-font">dollars</span>
+            <span class="alt-font">Diversify your portfolio</span>. Save and earn interest in <span class="alt-font">dollars</span>
           </h1>
         </div>
         <div class="mission-image-block">
@@ -48,13 +42,7 @@
             alt=""
             class="mission-image"
             loading="lazy"
-            sizes="(max-width: 479px) 120px, (max-width: 767px) 150px, 17vw"
-            src="@/static/assets/images/mission-slide-img.png"
-            srcset="
-              @/static/assets/images/mission-slide-img-p-500.png 500w,
-              @/static/assets/images/mission-slide-img-p-800.png 800w,
-              @/static/assets/images/mission-slide-img.png       930w
-            "
+            src="@/static/assets/images/dollar.png"
           >
         </div>
       </div>

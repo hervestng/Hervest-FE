@@ -4,12 +4,12 @@
       <div class="stack-card one">
         <div class="stack-card-inner">
           <div class="stack-header">
-            Invest with a difference.
+            Invest in a female trader
           </div>
           <div class="stack-stats-block">
             <div>
               <div class="stat-text dark-purple-text">
-                How you invest changes lives and communities. <br> Fund a female farmer today and earn highly <br> competitive returns on the go.
+               Grow the women's economy and make money.
               </div>
             </div>
             <!-- <div class="stats-line" /> -->
@@ -25,11 +25,7 @@
               class="stack-image"
               loading="lazy"
               sizes="(max-width: 767px) 200px, (max-width: 991px) 33vw, 42vw"
-              src="@/static/assets/images/card-img-1.png"
-              srcset="
-                @/static/assets/images/card-img-1-p-500.png  500w,
-                @/static/assets/images/card-img-1.png       1244w
-              "
+              src="@/static/assets/images/Big-card-4.png"
             >
           </div>
         </div>
@@ -41,12 +37,12 @@
           </div>
           <div class="stack-stats-block">
             <div>
-              <div class="up dark-purple-text">
+              <!-- <div class="up dark-purple-text">
                 Earn Interest up to
               </div>
               <div class="stat-percent pink-text">
                 15%
-              </div>
+              </div> -->
               <div class="stat-text dark-purple-text">
                 Save towards multiple goals with <br> a personal savings plan.
               </div>
@@ -57,13 +53,9 @@
             <img
               alt=""
               class="stack-image"
-              loading="lazy"
               sizes="(max-width: 767px) 200px, (max-width: 991px) 33vw, 42vw"
-              src="@/static/assets/images/card-img-2.png"
-              srcset="
-                @/static/assets/images/card-img-2-p-500.png  500w,
-                @/static/assets/images/card-img-2.png       1400w
-              "
+              loading="lazy"
+              src="@/static/assets/images/Big-card-3.png"
             >
           </div>
         </div>
@@ -76,7 +68,7 @@
           <div class="stack-stats-block">
             <div>
               <div class="stat-text grey-text">
-                 Get higher-than-average returns<br> on your HerVest savings plan.
+                 Get higher-than-average returns<br> on your HerVest savings account.
               </div>
             </div>
             <!-- <div class="stats-line three" /> -->
@@ -92,11 +84,7 @@
               class="stack-image"
               loading="lazy"
               sizes="(max-width: 767px) 200px, (max-width: 991px) 33vw, 42vw"
-              src="@/static/assets/images/card-img-3.png"
-              srcset="
-                @/static/assets/images/card-img-3-p-500.png  500w,
-                @/static/assets/images/card-img-3.png       1466w
-              "
+              src="@/static/assets/images/Big-card-1.png"
             >
           </div>
         </div>
@@ -109,7 +97,7 @@
           <div class="stack-stats-block">
             <div>
               <div class="stat-text dark-purple-text">
-                Discover yours today and understand <br> why you act around money <br> the way you do.
+                Discover yours today<!--and understand <br> why you act around money <br> the way you do-->.
               </div>
             </div>
             <!-- <div class="stats-line four" /> -->
@@ -137,19 +125,19 @@
       <div class="stack-card five">
         <div class="stack-card-inner">
           <div class="stack-header five">
-            Access to women focused tools, guides and growth insights
+            Access low-risk investment opportunities that grow your money
           </div>
           <div class="stack-stats-block">
             <div>
               <div class="up dark-purple-text">
-                Up to
+                while closing the
               </div>
               <div class="stat-percent pink-text">
-                150
+                gender finance gap
               </div>
-              <div class="stat-text dark-purple-text">
-                available resources
-              </div>
+              <!-- <div class="stat-text dark-purple-text">
+
+              </div> -->
             </div>
             <!-- <div class="stats-line five" /> -->
           </div>

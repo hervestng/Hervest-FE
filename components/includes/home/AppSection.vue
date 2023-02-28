@@ -15,31 +15,31 @@
             <div>Step 1 - Create a free account</div>
           </div>
           <h4 class="no-margin">
-            Sign up to HerVest with your name, email and phone number.
+            Sign up with your name, email and phone number.
           </h4>
         </div>
         <div class="value-wrappper">
           <div class="value-block">
-            <div>Step 2 - Set up your Purse account</div>
+            <div>Step 2 - Set up your purse account</div>
           </div>
           <h4 class="no-margin">
-            Register your BVN to generate a unique account number. This allows you to instantly receive and transfer funds.
+           Register your BVN to generate a unique account number.
           </h4>
         </div>
         <div class="value-wrappper">
           <div class="value-block">
-            <div>Step 3 - Start a savings plan</div>
+            <div>Step 3 - Start a savings and investment plan</div>
           </div>
           <h4 class="no-margin">
-            Add a debit card or transfer funds to your purse account to activate your short or long-term financial goals.
+            Add a debit card or fund your purse to activate your plan.
           </h4>
         </div>
         <div class="value-wrappper">
           <div class="value-block">
-            <div>Step 4 - Get your money working</div>
+            <div>Step 4 - Relax and watch your money grow</div>
           </div>
           <h4 class="no-margin step-bottom">
-            Relax and watch your money grow with juicy interest on the go.
+            Reach your goals while earning juicy interest on the go.
           </h4>
           <div class="app-buttons-wrapper">
             <div class="cta-button-wrapper">
@@ -73,7 +73,7 @@ export default {}
 }
 
 .value-block{
-    padding: 20px !important;
+    padding: 16px !important;
 }
 
 .app-buttons-wrapper {

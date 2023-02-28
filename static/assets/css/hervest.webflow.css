@@ -979,7 +979,7 @@ blockquote {
   border-radius: 7px;
   background-color: rgba(84, 4, 69, 0.03);
   color: #b60082;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 24px;
   font-weight: 700;
   text-transform: uppercase;
@@ -1284,7 +1284,7 @@ blockquote {
   -webkit-box-align: center;
   -webkit-align-items: center;
   -ms-flex-align: center;
-  align-items: center;
+  align-items: flex-start;
   border-radius: 30px;
   background-color: rgba(235, 203, 226, 0.5);
   color: #540445;
