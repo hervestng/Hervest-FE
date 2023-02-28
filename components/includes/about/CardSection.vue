@@ -24,25 +24,25 @@
               alt=""
               class="stack-image"
               loading="lazy"
-              sizes="(max-width: 767px) 200px, (max-width: 991px) 33vw, 42vw"
+              width="600"
               src="@/static/assets/images/Big-card-4.png"
             >
           </div>
         </div>
       </div>
-      <div class="stack-card two">
+      <!-- <div class="stack-card two">
         <div class="stack-card-inner">
           <div class="stack-header two">
             Reach your financial goals with ease
           </div>
           <div class="stack-stats-block">
             <div>
-              <!-- <div class="up dark-purple-text">
+              <div class="up dark-purple-text">
                 Earn Interest up to
               </div>
               <div class="stat-percent pink-text">
                 15%
-              </div> -->
+              </div>
               <div class="stat-text dark-purple-text">
                 Save towards multiple goals with <br> a personal savings plan.
               </div>
@@ -59,7 +59,7 @@
             >
           </div>
         </div>
-      </div>
+      </div> -->
       <div class="stack-card three">
         <div class="stack-card-inner">
           <div class="stack-header three">
@@ -133,11 +133,11 @@
                 while closing the
               </div>
               <div class="stat-percent pink-text">
-                gender finance gap
+                gender
               </div>
-              <!-- <div class="stat-text dark-purple-text">
-
-              </div> -->
+              <div class="stat-text dark-purple-text">
+                finance gap
+              </div>
             </div>
             <!-- <div class="stats-line five" /> -->
           </div>
