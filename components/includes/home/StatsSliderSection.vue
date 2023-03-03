@@ -31,25 +31,25 @@
           >
         </div>
       </div>
-      <div class="mission-slide">
-        <div class="mission-text-block">
-          <h1 class="no-margin capitalize">
-            <span class="alt-font">Diversify your portfolio</span>. Save and earn interest in <span class="alt-font">dollars</span>
-          </h1>
+            <div class="mission-slide">
+          <div class="mission-text-block">
+            <h1 class="no-margin capitalize">
+             <span class="alt-font">Invest in dollar-denominated</span> assets and earn interest in Dollars.
+             </h1>
+          </div>
+          <div class="mission-image-block">
+            <img
+              alt=""
+              class="mission-image"
+              loading="lazy"
+              src="@/static/assets/images/dollar.png"
+            >
+          </div>
         </div>
-        <div class="mission-image-block">
-          <img
-            alt=""
-            class="mission-image"
-            loading="lazy"
-            src="@/static/assets/images/dollar.png"
-          >
-        </div>
-      </div>
       <div class="mission-slide light-green">
         <div class="mission-text-block small">
           <h1 class="no-margin capitalize">
-            Refer and earn. <span class="alt-font">Enjoy rewards when you refer your friends</span> on <span class="alt-font">HerVest</span>
+            Refer and earn. <span class="alt-font">Enjoy cash bonuses when you refer your friends </span> on <span class="alt-font">HerVest</span>
           </h1>
         </div>
         <div class="mission-image-block">

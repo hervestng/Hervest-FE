@@ -4,19 +4,19 @@
       <div class="stack-card one">
         <div class="stack-card-inner">
           <div class="stack-header">
-            Invest in a female trader
+           Invest with a difference
           </div>
           <div class="stack-stats-block">
             <div>
               <div class="stat-text dark-purple-text">
-               Grow the women's economy and make money.
+              How you invest changes lives and communities. <br> Impact invest with HerVest today and earn highly <br> competitive returns on the go.
               </div>
             </div>
             <!-- <div class="stats-line" /> -->
           </div>
           <div class="cta-button-wrapper">
             <a class="cta-inline-block-filled-signup" href="https://staging--hervestapp.netlify.app/Signup" target="_blank">
-              Get Started
+              Invest Now
             </a>
           </div>
           <div class="stack-image-block">
@@ -25,8 +25,7 @@
               class="stack-image"
               loading="lazy"
               width="600"
-              src="@/static/assets/images/Big-card-4.png"
-            >
+              src="@/static/assets/images/Big-card-4.png">
           </div>
         </div>
       </div>
@@ -68,7 +67,7 @@
           <div class="stack-stats-block">
             <div>
               <div class="stat-text grey-text">
-                 Get higher-than-average returns<br> on your HerVest savings account.
+                Earn up to 15% annual interest <br> on your HerVest savings plan.
               </div>
             </div>
             <!-- <div class="stats-line three" /> -->
@@ -92,19 +91,19 @@
       <div class="stack-card four">
         <div class="stack-card-inner">
           <div class="stack-header four">
-            Over 40,000 women on HerVest know their money personality
+            Over 40,000 women on HerVest know their money personalities
           </div>
-          <div class="stack-stats-block">
+          <!-- <div class="stack-stats-block">
             <div>
               <div class="stat-text dark-purple-text">
-                Discover yours today<!--and understand <br> why you act around money <br> the way you do-->.
+                and understand <br> why you act around money <br> the way you do
               </div>
             </div>
-            <!-- <div class="stats-line four" /> -->
-          </div>
+            <div class="stats-line four" />
+          </div> -->
           <div class="cta-button-wrapper">
             <a class="cta-inline-block-filled-signup" href="https://form.typeform.com/to/ilQ26C" target="_blank">
-              Take the Test
+              Discover yours today
             </a>
           </div>
           <div class="stack-image-block">
@@ -129,15 +128,16 @@
           </div>
           <div class="stack-stats-block">
             <div>
-              <div class="up dark-purple-text">
+              <!-- <div class="up dark-purple-text"> -->
+              <div class="stat-text dark-purple-text">
                 while closing the
               </div>
               <div class="stat-percent pink-text">
-                gender
+                Gender Finance Gap
               </div>
-              <div class="stat-text dark-purple-text">
+              <!-- <div class="stat-text dark-purple-text">
                 finance gap
-              </div>
+              </div> -->
             </div>
             <!-- <div class="stats-line five" /> -->
           </div>
