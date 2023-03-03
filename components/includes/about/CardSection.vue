@@ -4,12 +4,12 @@
       <div class="stack-card one">
         <div class="stack-card-inner">
           <div class="stack-header">
-           Invest with a difference
+            Invest with a difference
           </div>
           <div class="stack-stats-block">
             <div>
               <div class="stat-text dark-purple-text">
-              How you invest changes lives and communities. <br> Impact invest with HerVest today and earn highly <br> competitive returns on the go.
+                How you invest changes lives and communities. <br> Impact invest with HerVest today and earn highly <br> competitive returns on the go.
               </div>
             </div>
             <!-- <div class="stats-line" /> -->
@@ -24,8 +24,9 @@
               alt=""
               class="stack-image"
               loading="lazy"
+              src="@/static/assets/images/Big-card-4.png"
               width="600"
-              src="@/static/assets/images/Big-card-4.png">
+            >
           </div>
         </div>
       </div>

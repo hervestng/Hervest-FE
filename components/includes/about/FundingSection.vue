@@ -9,33 +9,33 @@
           {{ widgetData.primary.content }}
         </div>
         <a
-          target="_blank"
-          :href="widgetData.primary.cta_link"
           class="button w-inline-block"
+          :href="widgetData.primary.cta_link"
+          target="_blank"
         >
           <div>{{ widgetData.primary.cta_text }}</div>
         </a>
       </div>
       <div class="funding-image-block">
         <img
+          alt=""
+          class="funding-image"
+          loading="lazy"
           :src="
             mediaUrl + widgetData.primary.featured_image.data.attributes.url
           "
-          loading="lazy"
-          alt=""
-          class="funding-image"
         >
       </div>
     </div>
     <div class="funding-inner-flex two">
       <div class="funding-image-block">
         <img
+          alt=""
+          class="funding-image"
+          loading="lazy"
           :src="
             mediaUrl + widgetData.secondary.featured_image.data.attributes.url
           "
-          loading="lazy"
-          alt=""
-          class="funding-image"
         >
       </div>
       <div class="funding-text-wrapper">
@@ -46,9 +46,9 @@
           {{ widgetData.secondary.content }}
         </div>
         <a
-          target="_blank"
-          :href="widgetData.secondary.cta_link"
           class="button w-inline-block"
+          :href="widgetData.secondary.cta_link"
+          target="_blank"
         >
           <div>{{ widgetData.secondary.cta_text }}</div>
         </a>
