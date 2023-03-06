@@ -64,16 +64,16 @@ Vue.prototype.$cardLoop = () => {
  */
   setInterval(() => {
     movePlayhead(0.25)
-  }, 3000)
+  }, 5000)
   // animates the playhead on the loop by a certain amount (tweens it over the course of 0.5 seconds);
   function movePlayhead (amount) {
     time += amount
     if (time < 0) {
       // can't go negative, so just jump ahead 100 iterations and resume.
       loop.totalTime(loop.totalTime() + loop.duration() * 100)
-      time += loop.duration() * 100
+      time += loop.duration() * 1000
     }
-    gsap.to(loop, { totalTime: time, duration: 0.25, overwrite: true })
+    gsap.to(loop, { totalTime: time, duration: 0.75, overwrite: true })
   }
   // helper function that loops through the items 3 times, calling the animateFunc() for each item, then creates a tween of the playhead that focuses only on the 2nd iteration so that it's seamless (we need to pad the start and end with one iteration so that things aren't just coming in from a blank screen at the beginning)
   function buildSeamlessLoop (items, spacing, animateFunc) {

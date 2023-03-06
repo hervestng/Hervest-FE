@@ -5,16 +5,6 @@
     </h2>
     <div class="partners-logo-wrapper">
       <div class="partner-logo-block">
-        <a href="https://www.usaid.gov/innovation/nigeriacovid19/winners" target="_blank">
-          <img
-            alt=""
-            class="partner-logo"
-            loading="lazy"
-            src="@/static/assets/images/usaid-logo.png"
-          >
-        </a>
-      </div>
-      <div class="partner-logo-block">
         <a href="https://africa.googleblog.com/2022/09/meet-google-for-startups-black-founders.html" target="_blank">
           <img
             alt=""
@@ -25,12 +15,12 @@
         </a>
       </div>
       <div class="partner-logo-block">
-        <a href="https://guardian.ng/news/kwara-hervest-partner-to-help-1000-women-farmers/" target="_blank">
+        <a href="https://vc4a.com/blog/2022/09/01/meet-the-women/" target="_blank">
           <img
             alt=""
             class="partner-logo"
             loading="lazy"
-            src="@/static/assets/images/Kwara_State_Govt_Greyscale.png"
+            src="@/static/assets/images/vc4a-logo.png"
           >
         </a>
       </div>
@@ -40,18 +30,25 @@
             alt=""
             class="partner-logo"
             loading="lazy"
-            src="@/static/assets/images/Flutterwave_Greyscale.png"
+            src="@/static/assets/images/flutterwave-logo.png"
           >
         </a>
       </div>
       <div class="partner-logo-block">
-        <img
-          alt=""
-          class="partner-logo"
-          loading="lazy"
-          src="@/static/assets/images/V Bank (1) 1.png"
-          width="185"
-        >
+        <a href="https://katapult.vc/mauritius-investor-day-2022/" target="_blank">
+          <img
+            alt=""
+            class="partner-logo"
+            loading="lazy"
+            src="@/static/assets/images/katapult-logo.png"
+            width="185"
+          >
+        </a>
+      </div>
+      <div class="partner-logo-block">
+        <a href="https://www.usaid.gov/innovation/nigeriacovid19/winners" target="_blank">
+          <img alt="" class="partner-logo" loading="lazy" src="@/static/assets/images/usaid-logo.png">
+        </a>
       </div>
     </div>
   </div>
@@ -71,7 +68,13 @@ export default {
 </script>
 
 <style scoped>
-.partner-logo-block {
-  filter: grayscale(100%);
+.partner-logo {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+.partner-logo:hover {
+    -webkit-filter: none !important;
+    filter: none !important;
 }
 </style>

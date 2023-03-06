@@ -2,13 +2,20 @@
   <div class="newsletter-section">
     <div class="newsletter-text-wrapper">
       <h2 class="no-margin capitalize">
-        {{ newsLetterData.title }}
+        <!-- {{ newsLetterData.title }} -->
+        Money Personality
       </h2>
       <h4 class="no-margin">
-        {{ newsLetterData.description }}
+        <!-- {{ newsLetterData.description }} -->
+        Over 40,000 women on HerVest know their money personality
       </h4>
     </div>
-    <div class="subscribe-form w-form">
+    <div class="cta-button-wrapper">
+      <a class="cta-inline-block-filled-signup" href="https://form.typeform.com/to/ilQ26C" target="_blank">
+        Discover Yours Today
+      </a>
+    </div>
+    <!-- <div class="subscribe-form w-form">
       <form
         id="email-form"
         name="email-form"
@@ -42,7 +49,7 @@
           Oops! Something went wrong while subscribing, please try again!
         </div>
       </div>
-    </div>
+    </div> -->
   </div>
 </template>
 

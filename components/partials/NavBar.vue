@@ -2,21 +2,25 @@
   <div class="nav">
     <nuxt-link class="logo w-inline-block w--current" to="/" />
     <div class="nav-link-wrapper">
-      <nuxt-link class="nav-link w-inline-block" to="/about">
+      <!-- <nuxt-link class="nav-link w-inline-block" to="/about">
         About
-      </nuxt-link>
-      <a class="nav-link w-inline-block" href="https://hervest.medium.com/" target="_blank">Insights
-      </a>
-      <!-- <nuxt-link class="nav-link w-inline-block" to="/faqs">
-        FAQ
       </nuxt-link> -->
-      <nuxt-link class="nav-link w-inline-block" to="/contact">
-        Contact
+      <nuxt-link class="nav-link w-inline-block" to="/#invest">
+        Save & Invest
       </nuxt-link>
+      <!-- <a class="nav-link w-inline-block" href="https://insights.hervest.ng" target="_blank">Learn
+      </a> -->
+      <nuxt-link class="nav-link w-inline-block" to="/insights">
+        Learn
+      </nuxt-link>
+      <nuxt-link class="nav-link w-inline-block" to="/faqs">
+        FAQs
+      </nuxt-link>
+      <!-- <nuxt-link class="nav-link w-inline-block" to="/contact">
+        Contact
+      </nuxt-link> -->
       <a class="nav-link w-inline-block" href="https://app.hervest.ng/" target="_blank">Log In
       </a>
-      <!-- <a class="w-inline-block-filled-login" href="https://app.hervest.ng/" target="_blank">Log In
-      </a> -->
       <a class="w-inline-block-filled-signup" href="https://app.hervest.ng/Signup" target="_blank">Sign Up
       </a>
 
@@ -36,17 +40,17 @@
     </div>
     <div class="hamburger">
       <div
+        class="hamburger-lottie"
         data-animation-type="lottie"
         data-autoplay="0"
-        data-direction="1"
-        data-is-ix2-target="1"
         data-default-duration="4"
-        data-loop="0"
+        data-direction="1"
         data-duration="0"
-        data-renderer="svg"
+        data-is-ix2-target="1"
         data-ix2-initial-state="24"
+        data-loop="0"
+        data-renderer="svg"
         data-src="/documents/purple-hamburger.json"
-        class="hamburger-lottie"
         data-w-id="8be99f33-e0da-e74f-1cc7-28892c6e02a7"
       />
     </div>

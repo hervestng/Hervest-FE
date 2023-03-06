@@ -4,8 +4,11 @@
     <div class="container">
       <AboutHeroSection :widget-data="pageData.data.attributes.about" />
       <Partners :widget-data="pageData.data.attributes.partners" />
+      <MissionSection />
+      <MissionSliderSection />
+      <!-- <VisionSection :widget-data="pageData.data.attributes" /> -->
       <WhoAreWeSection :widget-data="pageData.data.attributes.who_we_are" />
-      <CardSection />
+      <!-- <CardSection /> -->
       <FinanceSection :widget-data="pageData.data.attributes.financial_info" />
       <AboutCommunityCTA :widget-data="pageData.data.attributes.tribe" />
       <FundingSection :widget-data="pageData.data.attributes.fundings" />

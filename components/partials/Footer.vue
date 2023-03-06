@@ -13,12 +13,12 @@
         >
           About Us
         </nuxt-link>
-        <nuxt-link class="footer-link w-inline-block" to="/#mission">
+        <nuxt-link class="footer-link w-inline-block" to="/about#mission">
           <div>Mission &amp; Vision</div>
         </nuxt-link>
-        <nuxt-link class="footer-link w-inline-block" to="/#core-values">
+        <!-- <nuxt-link class="footer-link w-inline-block" to="/about#core-values">
           <div>Core Values</div>
-        </nuxt-link>
+        </nuxt-link> -->
         <nuxt-link class="footer-link w-inline-block" to="/about#people">
           <div>People</div>
         </nuxt-link>
