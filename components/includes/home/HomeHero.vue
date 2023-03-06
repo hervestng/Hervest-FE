@@ -49,7 +49,7 @@
                   Create A Free Account
                 </a>
               </div>
-              <div class="button-wrapper">
+              <!-- <div class="button-wrapper">
                 <a
                   class="button-playstore w-inline-block"
                   href="https://play.google.com/store/apps/details?id=com.hervest&amp;hl=en"
@@ -60,7 +60,7 @@
                   href="https://apps.apple.com/ng/app/hervest/id1509714516"
                   target="_blank"
                 />
-              </div>
+              </div> -->
             </div>
             <div class="hero-image-block">
               <img
