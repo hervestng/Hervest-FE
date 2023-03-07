@@ -45,11 +45,11 @@
                 </h3>
               </div>
               <div class="cta-button-wrapper">
-                <a class="cta-inline-block-filled-signup" href="https://staging--hervestapp.netlify.app/Signup" target="_blank">
+                <a class="cta-inline-block-filled-signup" href="https://app.hervest.ng/Signup" target="_blank">
                   Create A Free Account
                 </a>
               </div>
-              <div class="button-wrapper">
+              <!-- <div class="button-wrapper">
                 <a
                   class="button-playstore w-inline-block"
                   href="https://play.google.com/store/apps/details?id=com.hervest&amp;hl=en"
@@ -60,7 +60,7 @@
                   href="https://apps.apple.com/ng/app/hervest/id1509714516"
                   target="_blank"
                 />
-              </div>
+              </div> -->
             </div>
             <div class="hero-image-block">
               <img

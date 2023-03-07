@@ -9,13 +9,13 @@
           <div class="stack-stats-block">
             <div>
               <div class="stat-text dark-purple-text">
-                How you invest changes lives and communities. <br> Impact invest with HerVest today and earn highly <br> competitive returns on the go.
+                How you invest changes lives and communities.
               </div>
             </div>
             <!-- <div class="stats-line" /> -->
           </div>
           <div class="cta-button-wrapper">
-            <a class="cta-inline-block-filled-signup" href="https://staging--hervestapp.netlify.app/Signup" target="_blank">
+            <a class="cta-inline-block-filled-signup" href="https://app.hervest.ng/Signup" target="_blank">
               Invest Now
             </a>
           </div>
@@ -130,12 +130,12 @@
           <div class="stack-stats-block">
             <div>
               <!-- <div class="up dark-purple-text"> -->
-              <div class="stat-text dark-purple-text">
+              <!-- <div class="stat-text dark-purple-text">
                 while closing the
               </div>
               <div class="stat-percent pink-text">
                 Gender Finance Gap
-              </div>
+              </div> -->
               <!-- <div class="stat-text dark-purple-text">
                 finance gap
               </div> -->
