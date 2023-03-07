@@ -8,18 +8,13 @@
       <nuxt-link class="nav-link w-inline-block" to="/#invest">
         Save & Invest
       </nuxt-link>
-      <!-- <a class="nav-link w-inline-block" href="https://insights.hervest.ng" target="_blank">Learn
-      </a> -->
-      <!-- <nuxt-link class="nav-link w-inline-block" to="/insights">
+      <a class="nav-link w-inline-block" href="https://learn.hervest.ng" target="_blank">
         Learn
-      </nuxt-link> -->
+      </a>
       <nuxt-link class="nav-link w-inline-block" to="/faqs">
         FAQs
       </nuxt-link>
-      <!-- <nuxt-link class="nav-link w-inline-block" to="/contact">
-        Contact
-      </nuxt-link> -->
-      <a class="nav-link w-inline-block" href="https://app.hervest.ng/" target="_blank">Log In
+      <a class="nav-link w-inline-block" href="https://staging--hervestapp.netlify.app/" target="_blank">Log In
       </a>
       <a class="w-inline-block-filled-signup" href="https://app.hervest.ng/Signup" target="_blank">Sign Up
       </a>
