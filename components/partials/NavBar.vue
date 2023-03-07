@@ -8,8 +8,9 @@
       <nuxt-link class="nav-link w-inline-block" to="/#invest">
         Save & Invest
       </nuxt-link>
-      <!-- <a class="nav-link w-inline-block" href="https://insights.hervest.ng" target="_blank">Learn
-      </a> -->
+      <a class="nav-link w-inline-block" href="https://learn.hervest.ng" target="_blank">
+        Learn
+      </a>
       <!-- <nuxt-link class="nav-link w-inline-block" to="/insights">
         Learn
       </nuxt-link> -->

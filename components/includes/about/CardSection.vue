@@ -9,7 +9,7 @@
           <div class="stack-stats-block">
             <div>
               <div class="stat-text dark-purple-text">
-                How you invest changes lives and communities. 
+                How you invest changes lives and communities.
               </div>
             </div>
             <!-- <div class="stats-line" /> -->
