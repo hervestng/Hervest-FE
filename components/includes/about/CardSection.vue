@@ -15,7 +15,7 @@
             <!-- <div class="stats-line" /> -->
           </div>
           <div class="cta-button-wrapper">
-            <a class="cta-inline-block-filled-signup" href="https://app.hervest.ng/Signup" target="_blank">
+            <a class="cta-inline-block-filled-signup" href="https://staging--hervestapp.netlify.app/Signup" target="_blank">
               Invest Now
             </a>
           </div>
