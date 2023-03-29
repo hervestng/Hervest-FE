@@ -41,9 +41,9 @@
           </div>
         </div>
         <div class="ambassador-button-block">
-          <nuxt-link to="/contact" class="button campus w-button">
+          <a href="https://forms.office.com/r/Zg3iRR91RY" target="_blank" class="button campus w-button">
             {{ widgetData.application.cta_text }}
-          </nuxt-link>
+          </a>
         </div>
       </div>
     </div>
