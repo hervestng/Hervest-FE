@@ -4,12 +4,12 @@
       <div class="stack-card one">
         <div class="stack-card-inner">
           <div class="stack-header">
-            Invest with a difference
+            How you invest changes lives and communities
           </div>
           <!-- <div class="stack-stats-block">
             <div>
               <div class="stat-text dark-purple-text">
-                How you invest changes lives and communities.
+                Invest with a difference
               </div>
             </div>
           </div> -->
@@ -19,13 +19,7 @@
             </a>
           </div>
           <div class="stack-image-block">
-            <img
-              alt=""
-              class="stack-image"
-              loading="lazy"
-              src="@/static/assets/images/Big-card-4.png"
-              width="600"
-            >
+            <img alt="" class="stack-image" loading="lazy" src="@/static/assets/images/Big-card-4.png" width="600">
           </div>
         </div>
       </div>
@@ -62,12 +56,12 @@
       <div class="stack-card three">
         <div class="stack-card-inner">
           <div class="stack-header three">
-            Don’t settle for less!
+            Earn up to 15% annual interest on your HerVest savings plan.
           </div>
           <!-- <div class="stack-stats-block">
             <div>
               <div class="stat-text grey-text">
-                Earn up to 15% annual interest <br> on your HerVest savings plan.
+                Don’t settle for less!
               </div>
             </div>
           </div> -->
@@ -77,13 +71,8 @@
             </a>
           </div>
           <div class="stack-image-block">
-            <img
-              alt=""
-              class="stack-image"
-              loading="lazy"
-              sizes="(max-width: 767px) 200px, (max-width: 991px) 33vw, 42vw"
-              src="@/static/assets/images/Big-card-1.png"
-            >
+            <img alt="" class="stack-image" loading="lazy" sizes="(max-width: 767px) 200px, (max-width: 991px) 33vw, 42vw"
+              src="@/static/assets/images/Big-card-1.png">
           </div>
         </div>
       </div>
@@ -106,17 +95,11 @@
             </a>
           </div>
           <div class="stack-image-block">
-            <img
-              alt=""
-              class="stack-image"
-              loading="lazy"
-              sizes="(max-width: 767px) 200px, (max-width: 991px) 33vw, 42vw"
-              src="@/static/assets/images/card-img-4.png"
-              srcset="
-                @/static/assets/images/card-img-4-p-500.png  500w,
-                @/static/assets/images/card-img-4.png       1168w
-              "
-            >
+            <img alt="" class="stack-image" loading="lazy" sizes="(max-width: 767px) 200px, (max-width: 991px) 33vw, 42vw"
+              src="@/static/assets/images/card-img-4.png" srcset="
+                    @/static/assets/images/card-img-4-p-500.png  500w,
+                    @/static/assets/images/card-img-4.png       1168w
+                  ">
           </div>
         </div>
       </div>
@@ -127,17 +110,17 @@
           </div>
           <!-- <div class="stack-stats-block">
             <div> -->
-              <!-- <div class="up dark-purple-text"> -->
-              <!-- <div class="stat-text dark-purple-text">
+          <!-- <div class="up dark-purple-text"> -->
+          <!-- <div class="stat-text dark-purple-text">
                 while closing the
               </div>
               <div class="stat-percent pink-text">
                 Gender Finance Gap
               </div> -->
-              <!-- <div class="stat-text dark-purple-text">
+          <!-- <div class="stat-text dark-purple-text">
                 finance gap
               </div> -->
-            <!-- </div>
+          <!-- </div>
           </div> -->
           <div class="cta-button-wrapper">
             <a class="cta-inline-block-filled-signup" href="/insights" target="_blank">
@@ -145,12 +128,7 @@
             </a>
           </div>
           <div class="stack-image-block">
-            <img
-              alt=""
-              class="stack-image cards"
-              loading="lazy"
-              src="@/static/assets/images/card-img-5.svg"
-            >
+            <img alt="" class="stack-image cards" loading="lazy" src="@/static/assets/images/card-img-5.svg">
           </div>
         </div>
       </div>
@@ -160,7 +138,7 @@
 
 <script>
 export default {
-  mounted () {
+  mounted() {
     this.$nextTick(() => {
       this.$initWebflow()
     })
@@ -171,8 +149,7 @@ export default {
 </script>
 
 <style scoped>
-.cta-button-wrapper{
+.cta-button-wrapper {
   margin-top: 4vw;
 }
-
 </style>
