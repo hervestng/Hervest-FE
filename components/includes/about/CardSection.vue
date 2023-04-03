@@ -4,12 +4,12 @@
       <div class="stack-card one">
         <div class="stack-card-inner">
           <div class="stack-header">
-            Invest with a difference
+             How you invest changes lives and communities
           </div>
           <!-- <div class="stack-stats-block">
             <div>
               <div class="stat-text dark-purple-text">
-                How you invest changes lives and communities.
+                Invest with a difference
               </div>
             </div>
           </div> -->
@@ -62,12 +62,12 @@
       <div class="stack-card three">
         <div class="stack-card-inner">
           <div class="stack-header three">
-            Don’t settle for less!
+            Earn up to 15% annual interest <br> on your HerVest savings plan.
           </div>
           <!-- <div class="stack-stats-block">
             <div>
               <div class="stat-text grey-text">
-                Earn up to 15% annual interest <br> on your HerVest savings plan.
+                Don’t settle for less!
               </div>
             </div>
           </div> -->

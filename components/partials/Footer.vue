@@ -176,7 +176,7 @@
       </h4>
       <div class="footer-line" />
       <div class="copyright w-embed w-script">
-        Copyright {{ getYear }} HerVest.
+        Copyright {{ getYear }} HerVest for Women Limited. All rights reserved
       </div>
     </div>
   </div>
