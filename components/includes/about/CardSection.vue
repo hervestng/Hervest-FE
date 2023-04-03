@@ -56,7 +56,7 @@
       <div class="stack-card three">
         <div class="stack-card-inner">
           <div class="stack-header three">
-            Earn up to 15% annual interest <br> on your HerVest savings plan.
+            Earn up to 15% annual interest on your HerVest savings plan.
           </div>
           <!-- <div class="stack-stats-block">
             <div>
