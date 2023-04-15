@@ -43,7 +43,7 @@
           </h4>
           <div class="app-buttons-wrapper">
             <div class="cta-button-wrapper">
-              <a class="cta-inline-block-filled-signup" href="https://app.hervest.ng/Signup" target="_blank">
+              <a class="cta-inline-block-filled-signup" href="http://hervestng.app.link" target="_blank">
                 <!-- Get Started 🚀 --> Get Started
               </a>
             </div>
