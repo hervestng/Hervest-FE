@@ -97,9 +97,9 @@
           <div class="stack-image-block">
             <img alt="" class="stack-image" loading="lazy" sizes="(max-width: 767px) 200px, (max-width: 991px) 33vw, 42vw"
               src="@/static/assets/images/card-img-4.png" srcset="
-                  @/static/assets/images/card-img-4-p-500.png  500w,
-                  @/static/assets/images/card-img-4.png       1168w
-                ">
+                    @/static/assets/images/card-img-4-p-500.png  500w,
+                    @/static/assets/images/card-img-4.png       1168w
+                  ">
           </div>
         </div>
       </div>
