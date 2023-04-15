@@ -120,8 +120,8 @@
 }
 
 .cta-inline-block-filled-invert:hover {
-    background-color: #540b45;
-    border: 1px #fff solid;
+  background-color: #540b45;
+  border: 1px #fff solid;
 }
 
 body {
@@ -935,7 +935,7 @@ blockquote {
 
 .smat-header {
   color: #000;
-  font-size: 22px;
+  font-size: 19px;
   line-height: 31px;
   font-weight: 700;
   letter-spacing: 0.2em;
@@ -1275,7 +1275,7 @@ blockquote {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  padding: 6vw 4vw 5vw;
+  padding: 4vw;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -5164,7 +5164,7 @@ blockquote {
   }
 
   .w-inline-block-filled-login {
-   display: none;
+    display: none;
   }
 
   h6 {
@@ -7377,6 +7377,7 @@ blockquote {
   font-style: normal;
   font-display: swap;
 }
+
 @font-face {
   font-family: 'Satoshi';
   src: url('../fonts/Satoshi-Light.ttf') format('truetype');
@@ -7384,6 +7385,7 @@ blockquote {
   font-style: normal;
   font-display: swap;
 }
+
 @font-face {
   font-family: 'Satoshi';
   src: url('../fonts/Satoshi-Regular.ttf') format('truetype');
@@ -7391,6 +7393,7 @@ blockquote {
   font-style: normal;
   font-display: swap;
 }
+
 @font-face {
   font-family: 'Satoshi';
   src: url('../fonts/Satoshi-Black.ttf') format('truetype');
@@ -7398,6 +7401,7 @@ blockquote {
   font-style: normal;
   font-display: swap;
 }
+
 @font-face {
   font-family: 'Satoshi';
   src: url('../fonts/Satoshi-Medium.ttf') format('truetype');
@@ -7405,6 +7409,7 @@ blockquote {
   font-style: normal;
   font-display: swap;
 }
+
 @font-face {
   font-family: 'Fraunces 144pt';
   src: url('../fonts/Fraunces_144pt-Thin.ttf') format('truetype');
@@ -7412,6 +7417,7 @@ blockquote {
   font-style: normal;
   font-display: swap;
 }
+
 @font-face {
   font-family: 'Fraunces 144pt';
   src: url('../fonts/Fraunces_144pt-Regular.ttf') format('truetype');
@@ -7419,6 +7425,7 @@ blockquote {
   font-style: normal;
   font-display: swap;
 }
+
 @font-face {
   font-family: 'Fraunces 144pt';
   src: url('../fonts/Fraunces_144pt-Light.ttf') format('truetype');
