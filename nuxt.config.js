@@ -37,7 +37,7 @@ export default {
     '@/plugins/filters',
     '@/plugins/component.client',
     '@/plugins/directive.client',
-    '@/plugins/spilde.client',
+    '@/plugins/spilde.client'
   ],
 
   components: [
@@ -71,12 +71,12 @@ export default {
     autoTracking: {
       screenview: true
     }
-    },
+  },
 
   publicRuntimeConfig: {
     googleAnalytics: {
       id: process.env.GOOGLE_ANALYTICS_ID
     }
   }
-  
+
 }
