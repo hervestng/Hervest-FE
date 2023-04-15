@@ -935,7 +935,7 @@ blockquote {
 
 .smat-header {
   color: #000;
-  font-size: 22px;
+  font-size: 19px;
   line-height: 31px;
   font-weight: 700;
   letter-spacing: 0.2em;
@@ -1275,7 +1275,7 @@ blockquote {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  padding: 6vw 4vw 5vw;
+  padding: 4vw;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
