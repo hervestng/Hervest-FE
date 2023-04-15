@@ -8,7 +8,7 @@
       <div class="app-details-block">
         <div class="smat-header">
           Start your investment journey <br>
-          with these steps:
+          <!-- with these steps: -->
         </div>
         <div class="value-wrappper">
           <div class="value-block">
