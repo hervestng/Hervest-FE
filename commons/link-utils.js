@@ -16,7 +16,7 @@ export default () => {
     {
       rel: 'icon',
       type: 'image/ico',
-      href: '/assets/images/favicon.png'
+      href: '/favicon.ico'
     },
     {
       rel: 'apple-touch-icon',

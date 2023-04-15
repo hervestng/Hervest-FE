@@ -29,12 +29,13 @@
               </h2>
               <h1 class="h0 purple-text no-margin uppercase light-text">
                 {{ slideData.caption }}
-              </h1> -->
+              </h1>
+              -->
               <h2 class="purple-text no-margin capital">
                 Helping You
               </h2>
               <h1 class="h0 purple-text no-margin uppercase light-text">
-                Grow
+                {{ slideData.caption }}
               </h1>
               <h2 class="purple-text no-margin capital">
                 Your Money
