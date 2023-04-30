@@ -49,7 +49,7 @@
       <div class="mission-slide light-green">
         <div class="mission-text-block small">
           <h1 class="no-margin capitalize">
-            Refer and earn. <span class="alt-font">Enjoy cash bonuses when you refer your friends </span> on <span class="alt-font">HerVest</span>
+            Refer and earn. <span class="alt-font">Enjoy cash bonuses when you refer your friends <!--</span> on <span class="alt-font">HerVest--></span>
           </h1>
         </div>
         <div class="mission-image-block">
