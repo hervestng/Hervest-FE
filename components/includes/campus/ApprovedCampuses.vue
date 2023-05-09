@@ -25,7 +25,7 @@
       </div>
       <div class="apply-line" />
       <div class="apply-button-block">
-        <a class="button campus w-button" href="https://forms.office.com/r/Zg3iRR91RY" target="_blank">{{ widgetData.cta_text }}
+        <a class="button campus w-button" href="https://forms.office.com/r/Zg3iRR91RY" target="_blank">Apply Here
         </a>
         <!-- <nuxt-link to="/contact" class="button campus w-button">
           {{ widgetData.cta_text }}
