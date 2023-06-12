@@ -582,10 +582,10 @@ blockquote {
   align-items: center;
 }
 
-.partner-logo-block {
-  /* -webkit-filter: grayscale(100%);
-  filter: grayscale(100%); */
-}
+/* .partner-logo-block {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+} */
 
 .partner-logo {
   max-height: 5vw;
@@ -4195,7 +4195,7 @@ blockquote {
 
   .cta-button-wrapper {
     max-width: 420px;
-    margin-top: 0vw;
+    margin-top: 3vw;
     margin-bottom: 3vw;
   }
 
@@ -4359,7 +4359,7 @@ blockquote {
     max-width: 300px;
   }
 
-  .h0. {
+  .h0 {
     font-size: 73px;
     letter-spacing: -0.1em;
   }
@@ -5145,7 +5145,7 @@ blockquote {
 
   .cta-button-wrapper {
     max-width: 360px;
-    margin-top: 0vw;
+    margin-top: 4vw;
     margin-bottom: 4vw;
   }
 
@@ -5414,7 +5414,7 @@ blockquote {
     max-width: 300px;
   }
 
-  .h0.{
+  .h0 {
     font-size: 90px;
   }
 
@@ -6655,6 +6655,7 @@ blockquote {
 
   .cta-button-wrapper {
     max-width: 240px;
+    margin-top: 4vw;
     margin-bottom: 6vw;
   }
 
