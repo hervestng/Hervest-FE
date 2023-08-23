@@ -66,7 +66,7 @@
           <div>Careers</div>
         </nuxt-link>
       </div>
-      <div class="footer-nav-wrapper">
+      <!-- <div class="footer-nav-wrapper">
         <div>
           <strong>{{ footerData.col_3 }}</strong>
         </div>
@@ -93,6 +93,19 @@
           @click.native="scrollToTop"
         >
           <div>Terms of Services</div>
+        </a>
+      </div> -->
+      <div class="footer-nav-wrapper">
+        <div>
+          <strong>Tools</strong>
+        </div>
+        <a
+          class="footer-link top w-inline-block"
+          href="https://interest.hervest.ng"
+          target="_blank"
+          @click.native="scrollToTop"
+        >
+          <div>Interest Calculator</div>
         </a>
       </div>
       <div class="footer-nav-wrapper socials">
