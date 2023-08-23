@@ -12,7 +12,7 @@
     <AppSection />
     <SocialSection />
     <NewsSection />
-    <NewsLetterSection />
+    <!-- <NewsLetterSection /> -->
     <Footer />
   </div>
 </template>
