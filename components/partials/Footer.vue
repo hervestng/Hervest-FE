@@ -66,7 +66,7 @@
           <div>Careers</div>
         </nuxt-link>
       </div>
-        <!-- <div class="footer-nav-wrapper">
+      <!-- <div class="footer-nav-wrapper">
         <div>
           <strong>{{ footerData.col_3 }}</strong>
         </div>
