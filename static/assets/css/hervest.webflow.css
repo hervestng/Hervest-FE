@@ -5141,7 +5141,7 @@ blockquote {
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 802px) {
 
   .cta-button-wrapper {
     max-width: 360px;
