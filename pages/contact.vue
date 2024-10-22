@@ -28,7 +28,7 @@
                   href="tel:+2348032875778"
                   class="phone-link"
                 >(+234) 803 2875 778</a> -->
-                <a href="https://wa.me/2349023475608" class="phone-link">(+234) 803 2875 778 (WhatsApp Only)</a>
+                <a href="https://wa.me/2349023475608" class="phone-link">(+234) 902 347 5608 (WhatsApp Only)</a>
               </div>
             </div>
           </div>
