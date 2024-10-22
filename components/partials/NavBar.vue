@@ -11,15 +11,15 @@
       <a class="nav-link w-inline-block" href="https://loan.hervest.ng" target="_blank">
         Loan
       </a>
-      <a class="nav-link w-inline-block" href="https://learn.hervest.ng" target="_blank">
+      <a class="nav-link w-inline-block" href="https://learn.hervest.ng">
         Learn
       </a>
       <!-- <nuxt-link class="nav-link w-inline-block" to="/faqs">
         FAQs
       </nuxt-link> -->
-      <a class="nav-link w-inline-block" href="https://app.hervest.ng/" target="_blank">Log In
+      <a class="nav-link w-inline-block" href="https://app.hervest.ng/">Log In
       </a>
-      <a class="w-inline-block-filled-signup" href="https://app.hervest.ng/register" target="_blank">Sign Up
+      <a class="w-inline-block-filled-signup" href="https://app.hervest.ng/register">Sign Up
       </a>
 
       <div class="w-embed" />
