@@ -31,7 +31,7 @@
           >
         </div>
       </div>
-      <div class="mission-slide">
+      <!-- <div class="mission-slide">
         <div class="mission-text-block">
           <h1 class="no-margin capitalize">
             <span class="alt-font">Invest in dollar-denominated</span> assets and earn interest in <span class="alt-font">Dollars</span>
@@ -45,7 +45,7 @@
             src="@/static/assets/images/dollar.png"
           >
         </div>
-      </div>
+      </div> -->
       <div class="mission-slide light-green">
         <div class="mission-text-block small">
           <h1 class="no-margin capitalize">
