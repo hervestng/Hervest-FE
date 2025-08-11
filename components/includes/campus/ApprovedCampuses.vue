@@ -27,6 +27,7 @@
       <div class="apply-button-block">
         <a class="button campus w-button" href="https://forms.gle/EnxKXyUA7EF7tH7K9" target="_blank">Apply Here
         </a>
+
         <!-- <nuxt-link to="/contact" class="button campus w-button">
           {{ widgetData.cta_text }}
         </nuxt-link>  -->
