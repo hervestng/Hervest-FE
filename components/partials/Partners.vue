@@ -24,7 +24,7 @@
           >
         </a>
       </div>
-      <div class="partner-logo-block">
+      <!-- <div class="partner-logo-block">
         <a href="https://www.youtube.com/watch?v=Dio55QayBac" target="_blank">
           <img
             alt=""
@@ -33,7 +33,7 @@
             src="@/static/assets/images/flutterwave-logo.png"
           >
         </a>
-      </div>
+      </div> -->
       <div class="partner-logo-block">
         <a href="https://katapult.vc/mauritius-investor-day-2022/" target="_blank">
           <img
@@ -45,11 +45,11 @@
           >
         </a>
       </div>
-      <div class="partner-logo-block">
+      <!-- <div class="partner-logo-block">
         <a href="https://www.usaid.gov/innovation/nigeriacovid19/winners" target="_blank">
           <img alt="" class="partner-logo" loading="lazy" src="@/static/assets/images/usaid-logo.png">
         </a>
-      </div>
+      </div> -->
     </div>
   </div>
 </template>
