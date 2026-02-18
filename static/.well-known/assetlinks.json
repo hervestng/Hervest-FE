@@ -1,0 +1,14 @@
+[
+    {
+      "relation": [
+        "delegate_permission/common.handle_all_urls"
+      ],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "com.hervest",
+        "sha256_cert_fingerprints": [
+          "E7:FC:F7:A4:40:17:34:BE:6E:14:1C:0A:1B:8A:DA:92:80:EA:F9:F3:D5:48:E1:32:FD:3E:3B:BA:55:D4:3A:3F"
+        ]
+      }
+    }
+  ]
