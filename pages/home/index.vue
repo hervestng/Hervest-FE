@@ -5,7 +5,7 @@
     <Partners :widget-data="aboutPageData.data.attributes.partners" />
     <!-- <MissionSection /> -->
     <StatsSliderSection />
-    <!-- <VisionSection :widget-data="pageData.data.attributes" /> -->
+    <VisionSection :widget-data="pageData.data.attributes" />
     <!-- <CommunitySection :widget-data="pageData.data.attributes.community" /> -->
     <CardSection />
     <TestimonialSection :widget-data="testimonials.data" />
