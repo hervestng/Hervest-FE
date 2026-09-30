@@ -5,7 +5,7 @@
       data-animation="cross"
       data-autoplay="true"
       data-autoplay-limit="15"
-      data-delay="4000"
+      data-delay="2000"
       data-disable-swipe="true"
       data-duration="800"
       data-easing="ease"
