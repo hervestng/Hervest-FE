@@ -46,7 +46,7 @@
                 </h3>
               </div>
               <div class="cta-button-wrapper">
-                <a class="cta-inline-block-filled-signup" href="http://hervestng.app.link" target="_blank">
+                <a class="cta-inline-block-filled-signup" href="https://app.hervest.ng/register?utm_source=landing" target="_blank">
                   Create A Free Account
                 </a>
               </div>
