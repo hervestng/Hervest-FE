@@ -14,7 +14,7 @@
             </div>
           </div> -->
           <div class="cta-button-wrapper">
-            <a class="cta-inline-block-filled-signup" href="http://hervestng.app.link" target="_blank">
+            <a class="cta-inline-block-filled-signup" href="https://app.hervest.ng/register?utm_source=landing" target="_blank">
               Invest Now
             </a>
           </div>
@@ -66,7 +66,7 @@
             </div>
           </div> -->
           <div class="cta-button-wrapper">
-            <a class="cta-inline-block-filled-invert" href="http://hervestng.app.link" target="_blank">
+            <a class="cta-inline-block-filled-invert" href="https://app.hervest.ng/register?utm_source=landing" target="_blank">
               Start Saving
             </a>
           </div>
