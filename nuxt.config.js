@@ -13,7 +13,8 @@ export default {
     serviceID: process.env.SERVICE_ID,
     templateID: process.env.TEMPLATE_ID,
     userID: process.env.USER_ID,
-    token: process.env.TOKEN
+    token: process.env.TOKEN,
+    funnelURL: process.env.FUNNEL_API_URL
   },
 
   generate: {
@@ -37,7 +38,8 @@ export default {
     '@/plugins/filters',
     '@/plugins/component.client',
     '@/plugins/directive.client',
-    '@/plugins/spilde.client'
+    '@/plugins/spilde.client',
+    '@/plugins/funnel.client'
   ],
 
   components: [
