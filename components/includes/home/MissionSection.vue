@@ -2,6 +2,10 @@
   <div id="mission" class="mission-section">
     <div class="mission-text-wrapper">
       <h2 class="no-margin">
+        Our vision is to be an inclusive Digital Financial Services provider
+        for the advancement of women in Africa.
+      </h2>
+      <h2 class="no-margin" style="margin-top: 24px">
         Our mission is to improve women’s lives through greater access to and
         use of financial services.
       </h2>
