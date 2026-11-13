@@ -2,8 +2,8 @@
   <a
     class="report-banner"
     :href="reportUrl"
-    target="_blank"
     rel="noopener"
+    target="_blank"
     @click="trackClick"
   >
     <span class="report-banner__tag">New</span>
