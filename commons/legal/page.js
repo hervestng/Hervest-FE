@@ -1,4 +1,5 @@
-// Builds a Nuxt page component for a legal document in commons/legal/*.js.
+// Page mixin for a legal document in commons/legal/*.js.
+// Usage: <LegalDocument :doc="doc" /> + mixins: [legalPage(doc)]
 export default doc => ({
   data () {
     return { doc }
@@ -22,9 +23,5 @@ export default doc => ({
     this.$nextTick(() => {
       this.$initWebflow()
     })
-  },
-
-  render (h) {
-    return h('LegalDocument', { props: { doc } })
   }
 })
