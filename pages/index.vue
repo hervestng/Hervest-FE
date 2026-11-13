@@ -1,7 +1,11 @@
 <template>
   <div>
-    <NavBar :is-home-page="true" />
-    <HomeHero :widget-data="pageData.data.attributes.hero" />
+    <ReportBanner />
+    <!-- NavBar is absolutely positioned; anchor it below the banner -->
+    <div class="hero-container">
+      <NavBar :is-home-page="true" />
+      <HomeHero :widget-data="pageData.data.attributes.hero" />
+    </div>
     <Partners :widget-data="aboutPageData.data.attributes.partners" />
     <!-- <MissionSection /> -->
     <StatsSliderSection />
@@ -118,4 +122,8 @@ export default {
 }
 </script>
 
-<style scoped></style>
+<style scoped>
+.hero-container {
+  position: relative;
+}
+</style>
