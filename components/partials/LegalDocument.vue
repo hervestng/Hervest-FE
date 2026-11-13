@@ -12,6 +12,9 @@
         <p class="legal-summary">
           {{ doc.summary }}
         </p>
+        <p v-if="doc.updated" class="legal-updated">
+          Last updated: {{ doc.updated }}
+        </p>
         <nav aria-label="Legal documents" class="legal-tabs">
           <nuxt-link
             v-for="link in legalLinks"
@@ -144,6 +147,13 @@ export default {
   font-size: 18px;
   line-height: 30px;
   color: #5f5560;
+}
+
+.legal-summary + .legal-updated {
+  margin: -20px 0 32px;
+  font-size: 14px;
+  line-height: 20px;
+  color: #8a7f8a;
 }
 
 .legal-tabs {
