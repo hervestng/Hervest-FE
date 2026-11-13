@@ -39,22 +39,24 @@ export default {
       title: 'Definitions',
       body: [
         'In these Terms, unless the context clearly indicates otherwise, the following terms have the following meanings:',
-        { definitions: [
-          ['Ancillary Terms', 'means terms contained in our <a href="/privacy-policy">Privacy</a> and <a href="/cookie-policy">Cookie</a> Policies;'],
-          ['Business Day', 'means a day other than a Saturday, Sunday or national or public holiday in which banks are open for business in Nigeria;'],
-          ['Contract', 'means the contract formed between a User and Us in accordance with the terms and conditions set out in these Terms;'],
-          ['Device', 'includes your mobile phone handset and/or other equipment which when used together enables you to access the Platform;'],
-          ['Force Majeure Event', 'means any strike, lockout or other industrial action, act of God (including severe weather events), act of terrorism, war, act of government or political or civil disturbance which is beyond the reasonable control of the affected party;'],
-          ['HerVest Account', 'means your personal account on the Platform;'],
-          ['Interest', 'means the agreed returns on an investment plan;'],
-          ['Platform', 'means the mobile application and website located at <a href="https://www.hervest.ng">www.hervest.ng</a>, through which Our Services can be accessed;'],
-          ['Privacy &amp; Cookie Policies', 'means Our <a href="/privacy-policy">privacy</a> and <a href="/cookie-policy">cookie</a> policies;'],
-          ['Request', 'means a request or instruction received by HerVest from You or purportedly from You through the Platform or any of our customer support channels and upon which HerVest is authorised to act;'],
-          ['Service(s)', 'means all services provided through our Platform, including but not limited to savings and investment services;'],
-          ['Taxes', 'means any value-added tax, sales tax, goods and services tax, withholding tax, or other tax, levy, duty, impost, charge or fee imposed on any transaction entered into through or in connection with the Platform that by applicable law in the Federal Republic of Nigeria must be added to any amounts charged for any transaction related to the foregoing and must be collected by us;'],
-          ['Terms', 'means these terms and conditions, together with the documents referred here which form a binding agreement between you and HerVest and contain the terms and conditions governing your use of and access to our Platform; and'],
-          ['User, You or Your', 'means any individual or entity that accesses or uses our Platform.']
-        ] }
+        {
+          definitions: [
+            ['Ancillary Terms', 'means terms contained in our <a href="/privacy-policy">Privacy</a> and <a href="/cookie-policy">Cookie</a> Policies;'],
+            ['Business Day', 'means a day other than a Saturday, Sunday or national or public holiday in which banks are open for business in Nigeria;'],
+            ['Contract', 'means the contract formed between a User and Us in accordance with the terms and conditions set out in these Terms;'],
+            ['Device', 'includes your mobile phone handset and/or other equipment which when used together enables you to access the Platform;'],
+            ['Force Majeure Event', 'means any strike, lockout or other industrial action, act of God (including severe weather events), act of terrorism, war, act of government or political or civil disturbance which is beyond the reasonable control of the affected party;'],
+            ['HerVest Account', 'means your personal account on the Platform;'],
+            ['Interest', 'means the agreed returns on an investment plan;'],
+            ['Platform', 'means the mobile application and website located at <a href="https://www.hervest.ng">www.hervest.ng</a>, through which Our Services can be accessed;'],
+            ['Privacy &amp; Cookie Policies', 'means Our <a href="/privacy-policy">privacy</a> and <a href="/cookie-policy">cookie</a> policies;'],
+            ['Request', 'means a request or instruction received by HerVest from You or purportedly from You through the Platform or any of our customer support channels and upon which HerVest is authorised to act;'],
+            ['Service(s)', 'means all services provided through our Platform, including but not limited to savings and investment services;'],
+            ['Taxes', 'means any value-added tax, sales tax, goods and services tax, withholding tax, or other tax, levy, duty, impost, charge or fee imposed on any transaction entered into through or in connection with the Platform that by applicable law in the Federal Republic of Nigeria must be added to any amounts charged for any transaction related to the foregoing and must be collected by us;'],
+            ['Terms', 'means these terms and conditions, together with the documents referred here which form a binding agreement between you and HerVest and contain the terms and conditions governing your use of and access to our Platform; and'],
+            ['User, You or Your', 'means any individual or entity that accesses or uses our Platform.']
+          ]
+        }
       ]
     },
     {
@@ -62,7 +64,9 @@ export default {
       title: 'Account Registration and Eligibility',
       body: [
         { n: '2.1', html: 'You may access certain parts of the Platform without the need to create a HerVest Account. You will however, require Your HerVest Account to access most features of the Platform, particularly Our Services.' },
-        { n: '2.2', html: 'To use Our Services You must:',
+        {
+          n: '2.2',
+          html: 'To use Our Services You must:',
           items: [
             { n: '2.2.1', html: 'provide all information requested by us, such as your name, email address, mobile device number, a picture of You, Your online credentials for your Bank Account, and such other information as we may request from time to time;' },
             { n: '2.2.2', html: 'accept and agree to Our Terms;' },
@@ -71,14 +75,18 @@ export default {
             { n: '2.2.5', html: 'be at least 18 years of age;' },
             { n: '2.2.6', html: 'have a bank account with a financial institution in Nigeria; and' },
             { n: '2.2.7', html: 'have not been previously suspended or removed from Our Platform.' }
-          ] },
+          ]
+        },
         { n: '2.3', html: 'By creating or opening a HerVest Account, You represent and warrant that the information You provide us from time to time is true, accurate, current, and complete. You also agree not to misrepresent your identity or your User information. If you are using our Services on behalf of a company or other legal entity, you represent and warrant that you have the authority to bind such entity to these Terms.' },
-        { n: '2.4', html: 'We reserve the right to verify the information You provide during registration and to request additional information or documentation to verify Your identity or eligibility to use Our Services. You agree to provide such information and documentation promptly upon request. Such information and documentation may include:',
+        {
+          n: '2.4',
+          html: 'We reserve the right to verify the information You provide during registration and to request additional information or documentation to verify Your identity or eligibility to use Our Services. You agree to provide such information and documentation promptly upon request. Such information and documentation may include:',
           items: [
             { n: '2.4.1', html: 'an original copy of a government issued identity card verifying your identity including but not limited to your age, photo and address;' },
             { n: '2.4.2', html: 'a copy of a utility bill, bank statement or any other document, dated within three months of our request, with your name and Nigerian street address on it; and' },
             { n: '2.4.3', html: 'such other information and documentation that we may require from time to time.' }
-          ] },
+          ]
+        },
         { n: '2.5', html: 'If we are unable to verify your information or if we determine, in our sole discretion, that you are not eligible to use our Services, we refuse to create a HerVest Account for you. Where a HerVest Account has already been created, We may suspend or terminate Your HerVest Account and Your access to Our Services.' },
         { n: '2.6', html: 'In addition, if We find out or there is a reasonable cause to believe that the user of the HerVest Account is not the initial registrant of such account, We shall have the right to suspend or terminate the services to such account and deregister it without prior notification to you. You shall be solely responsible for all the losses arising to you and any other individual or organisation from the wipe and loss of all the data and information caused thereby.' },
         { n: '2.7', html: 'You are solely responsible for maintaining the confidentiality and security of Your HerVest Account login credentials, including your username and password. You agree not to share Your login credentials with any third party, and to notify Us immediately of any unauthorized use or suspected breach of Your HerVest Account.' },
@@ -113,7 +121,9 @@ export default {
       id: 'user-covenant',
       title: 'User Covenant',
       body: [
-        { n: '5.1', html: 'By using Our Platform, You covenant and agree that you will:',
+        {
+          n: '5.1',
+          html: 'By using Our Platform, You covenant and agree that you will:',
           items: [
             { n: '5.1.1', html: 'comply with all applicable laws, regulations, and guidelines related to Your use of Our Platform;' },
             { n: '5.1.2', html: 'provide accurate and complete information to Us and update such information as needed;' },
@@ -123,13 +133,17 @@ export default {
             { n: '5.1.6', html: 'ensure your Device is in safe and good order for the purpose of accessing the Platform and the Services;' },
             { n: '5.1.7', html: 'follow all instructions, procedures and terms contained in these Terms and any document provided by HerVest concerning the use of the Platform and the Services;' },
             { n: '5.1.8', html: 'not at any time operate or use the Services in any manner that may be prejudicial to HerVest;' },
-            { n: '5.1.9', html: 'immediately inform Us where:',
+            {
+              n: '5.1.9',
+              html: 'immediately inform Us where:',
               items: [
                 { n: 'a)', html: 'You have reason to believe that your HerVest Account details are or may be known to any person not authorised to know the same and/or have been compromised; and/or' },
                 { n: 'b)', html: 'You have reason to believe that unauthorised use of the Services has or may have occurred or could occur and a transaction may have been fraudulently initiated or compromised; and' }
-              ] },
+              ]
+            },
             { n: '5.1.10', html: 'indemnify Us against all liabilities, costs, expenses, damages and losses suffered or incurred by Us as a result of any claim made against Us due to your breach of the Contract.' }
-          ] },
+          ]
+        },
         { n: '5.2', html: 'We reserve the right to investigate and take legal action against any User who violates this clause or any other provision in these Terms, and we may terminate Your access to Our Platform at any time if we determine, in Our sole discretion, that You have violated any provision of these Terms.' }
       ]
     },
@@ -149,13 +163,16 @@ export default {
         { n: '7.1', html: 'Where you violate these terms or other agreements and terms that you are required to comply with, We shall have the right to independently judge according to the circumstance and to adopt measures without prior notice to You, including without restricting, suspending, or terminating Your use of part or all of the features of the Services. You shall be solely responsible for any losses incurred thereby.' },
         { n: '7.2', html: 'You shall be solely responsible for any third-party complaint, litigation or claim arising from your breach of these Terms.' },
         { n: '7.3', html: 'You agree that the Platform is not a secure method of transmitting information, and that the risk of any loss of information or interception of information by any third party will be borne by You and that We, as a service provider shall not be liable for same. We shall also not be liable for any damages or injuries arising out of or in connection with the use of the Platform or its non-use including non-availability or failure of performance, loss or corruption of data, loss of or damage to property (including profit and goodwill), work stoppage, or interruption of business, error, omission, interruption, deletion, defect, delay in operation or transmission, communication line failure or for any failure to act upon instructions. You will at all times indemnify HerVest, along with its directors, officers, employees, successors and assigns (“<strong>Indemnified Persons</strong>”) from and against all actions, proceedings, claims and demands whatsoever for or on account of or in relation to Your use of the Platform and from and against all damages, costs, charges and expenses in respect thereof.' },
-        { n: '7.4', html: 'On no account will HerVest or any of the indemnified persons above be liable for any demand, claim, loss, or damage which you may sustain:',
+        {
+          n: '7.4',
+          html: 'On no account will HerVest or any of the indemnified persons above be liable for any demand, claim, loss, or damage which you may sustain:',
           items: [
             { n: '7.4.1', html: 'from our acting in accordance with your Requests or Requests purported to be from You;' },
             { n: '7.4.2', html: 'from the malfunction or failure or unavailability of any hardware, software, or equipment, the loss or destruction of any data, power failures, corruption of storage media, natural phenomena, riots, acts of vandalism, sabotage, terrorism, any other event outside of HerVest’s control, interruption or distortion of communication links or arising from reliance on any person or any incorrect, illegible, incomplete or inaccurate information or data contained in any Request received by HerVest;' },
             { n: '7.4.3', html: 'from any unauthorised access to your Account or any breach of security or any destruction or accessing of your data or any destruction or theft of or damage to any of your Device; or' },
             { n: '7.4.4', html: 'from any loss or damage occasioned by the failure or unavailability of third-party facilities or systems or the inability of a third party to process a transaction.' }
-          ] }
+          ]
+        }
       ]
     },
     {
@@ -164,7 +181,9 @@ export default {
       body: [
         { n: '8.1', html: 'HerVest shall not be responsible for any loss suffered by You should the Services be interfered with or be unavailable by reason of the failure of your Device used in accessing the Services, or any other circumstances whatsoever not within HerVest’s control including, without limitation, a Force Majeure Event or error, interruption, delay or non-availability of the mobile network, terrorist or any enemy action, loss of power, adverse weather or atmospheric conditions, and failure of any public or private telecommunications system.' },
         { n: '8.2', callout: 'Your sole remedy for dissatisfaction with your use of the Platform is to stop using it. You agree that under no circumstances will HerVest be liable for any damages, whether direct, indirect, incidental, consequential, special, punitive or exemplary damages (collectively, the "Excluded Damages"), arising out of or in any way connected with your use of or inability to use the Platform, including but not limited to: loss of anticipated profits, business, savings, goodwill or data; any failure of performance, denial of service, attack, interruption, defect, operator errors, inconvenience or delay in operation or transmission; failure of electronic or mechanical equipment or communications lines (including telephone and the internet); severe or extraordinary weather (including flood, earthquake, or other act of God); fire, war, insurrection, terrorist act, riot, labour dispute and other labour problems, accident, emergency or action of government; or any third party theft of, destruction of, unauthorized access to, alteration or use of your information, equipment or property.' },
-        { n: '8.3', html: 'HerVest will not be liable for any losses or damage suffered by you as a result of or in connection with any loss or damage which may be incurred by you as a result of the following:',
+        {
+          n: '8.3',
+          html: 'HerVest will not be liable for any losses or damage suffered by you as a result of or in connection with any loss or damage which may be incurred by you as a result of the following:',
           items: [
             { n: '8.3.1', html: 'any modification or amendment to the Services or temporary cessation in the provision of the Services (or any functions of the Services) according to these Terms;' },
             { n: '8.3.2', html: 'Your failure to provide us with accurate information;' },
@@ -174,7 +193,8 @@ export default {
             { n: '8.3.6', html: 'failure, malfunction, interruption or unavailability of the mobile network, Your Device, System, or an electronic payment system; the money in your Account being subject to investigations, lien, legal process, or other encumbrance restricting payments or transfers thereof;' },
             { n: '8.3.7', html: 'Your failure to give proper or complete instructions for payments or transfers relating to your HerVest Account; or' },
             { n: '8.3.8', html: 'any fraudulent or illegal use of the Services, or your Device.' }
-          ] }
+          ]
+        }
       ]
     },
     {
@@ -189,12 +209,15 @@ export default {
       id: 'force-majeure',
       title: 'Force Majeure',
       body: [
-        { n: '10.1', html: 'Our failure to perform any of Our respective obligations under these terms (or a delay in such performance) due to a Force Majeure Event, will not constitute a breach of these Terms. Where a Force Majeure Event occurs, we will:',
+        {
+          n: '10.1',
+          html: 'Our failure to perform any of Our respective obligations under these terms (or a delay in such performance) due to a Force Majeure Event, will not constitute a breach of these Terms. Where a Force Majeure Event occurs, we will:',
           items: [
             { n: '10.1.1', html: 'promptly give you notice of the Force Majeure Event and an estimate of the non-performance and delay;' },
             { n: '10.1.2', html: 'take all reasonable steps to overcome the effects of the Force Majeure Event; and' },
             { n: '10.1.3', html: 'resume performance as soon as practicable after the Force Majeure Event no longer affects us.' }
-          ] }
+          ]
+        }
       ]
     },
     {
@@ -203,15 +226,20 @@ export default {
       body: [
         { n: '11.1', html: 'HerVest is the owner or licensee of all intellectual property rights in the Platform, including but not limited to trademarks, copyrights, patents, trade secrets, and other proprietary information.' },
         { n: '11.2', html: 'You acknowledge that the Platform and all material published on the Platform including but not limited to text, graphics, photos, logos, button icons, images, trademarks, audio and audio-visual clips, databases, data compilations, data and software (together “<strong>HerVest Content</strong>”) are owned and controlled by us. You may not copy, adapt, display, communicate to the public or otherwise use any HerVest Content except as enabled and permitted by Us from time to time.' },
-        { n: '11.3', html: 'You agree that you shall not directly or indirectly:',
+        {
+          n: '11.3',
+          html: 'You agree that you shall not directly or indirectly:',
           items: [
             { n: '11.3.1', html: 'decipher, recompile, disassemble, reverse engineer, or otherwise attempt to derive any source code or underlying ideas or algorithms of any part of the Platform;' },
             { n: '11.3.2', html: 'modify, translate, or otherwise create derivative works of any part of the Platform;' },
             { n: '11.3.3', html: 'copy, rent, lease, distribute, or otherwise transfer any of the rights that you receive hereunder.' }
-          ] },
+          ]
+        },
         { n: '11.4', html: 'You acknowledge and agree that any feedback, suggestions, or ideas provided by you to HerVest regarding the Platform may be used by HerVest in any manner without any obligation to you.' },
         { n: '11.5', html: 'The provisions of this clause shall survive termination or expiration of the Contract.' },
-        { n: '11.6', html: 'If you believe that any materials on the Platform infringe your Intellectual Property, you may request that such materials be removed. This request must bear a signature (or electronic equivalent) of the Intellectual Property right holder or an authorized representative or attorney, and must:',
+        {
+          n: '11.6',
+          html: 'If you believe that any materials on the Platform infringe your Intellectual Property, you may request that such materials be removed. This request must bear a signature (or electronic equivalent) of the Intellectual Property right holder or an authorized representative or attorney, and must:',
           items: [
             { n: '11.6.1', html: 'identify the allegedly infringing materials;' },
             { n: '11.6.2', html: 'indicate where on the Platform the infringing materials are located;' },
@@ -219,7 +247,8 @@ export default {
             { n: '11.6.4', html: 'state that you have a good faith belief that the materials are infringing;' },
             { n: '11.6.5', html: 'undertake that the information in your claim is accurate; and' },
             { n: '11.6.6', html: 'indicate (with documentary evidence thereof) that you are the lawful Intellectual Property owner or are authorized to act on the owner’s behalf. If you believe that someone has wrongly filed a notice of Intellectual Property infringement against you, you may send us a counter-notice in accordance with equivalent requirements.' }
-          ] }
+          ]
+        }
       ]
     },
     {
@@ -235,14 +264,17 @@ export default {
       id: 'termination-or-suspension',
       title: 'Termination or Suspension Rights',
       body: [
-        { n: '13.1', html: 'HerVest may at any time, upon notice to you, terminate or vary its business relationship with You and close your HerVest Account. Without prejudice to HerVest’s rights under this clause, We may at Our sole discretion suspend or close Your HerVest Account where:',
+        {
+          n: '13.1',
+          html: 'HerVest may at any time, upon notice to you, terminate or vary its business relationship with You and close your HerVest Account. Without prejudice to HerVest’s rights under this clause, We may at Our sole discretion suspend or close Your HerVest Account where:',
           items: [
             { n: '13.1.1', html: 'You use the HerVest Account for unauthorised purposes or where HerVest detects any abuse/misuse, breach of content, fraud or attempted fraud relating to your use of the Services;' },
             { n: '13.1.2', html: 'HerVest is required or requested to comply with an order or instruction of or a recommendation from the government, court, regulator or other competent authority;' },
             { n: '13.1.3', html: 'HerVest reasonably suspects or believes that you are in breach of these Terms which you fail to remedy (if remediable) within 2 Business Days after the service of notice by email, SMS or other electronic means requiring you to do so;' },
             { n: '13.1.4', html: 'such a suspension or variation is necessary as a consequence of technical problems or for reasons of safety; to facilitate update or upgrade the contents or functionality of the Services from time to time; or where your HerVest Account becomes inactive or dormant;' },
             { n: '13.1.5', html: 'HerVest decides to suspend or cease the provision of the Services for commercial reasons or for any other reason as it may determine in its absolute discretion.' }
-          ] },
+          ]
+        },
         { n: '13.2', html: 'Any suspension, termination, or cancellation of the Platform shall not affect your obligations to Us under these Terms (including but not limited to ownership, indemnification, and limitation of liability), which by their sense and context are intended to survive such suspension, termination, or cancellation.' },
         { n: '13.3', html: 'You have a right to withdraw from the Services at any time after giving HerVest a 3-days written notice of your intention to withdraw and delete your Account.' }
       ]

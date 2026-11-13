@@ -66,35 +66,21 @@
           <div>Careers</div>
         </nuxt-link>
       </div>
-      <!-- <div class="footer-nav-wrapper">
+      <div class="footer-nav-wrapper">
         <div>
-          <strong>{{ footerData.col_3 }}</strong>
+          <strong>Legal</strong>
         </div>
-        <a
-          class="footer-link top w-inline-block"
-          href="https://hervest.docsend.com/view/5k6rw5khwg9xk2b2"
-          target="_blank"
-          @click.native="scrollToTop"
-        >
-          <div>Cookies Policy</div>
-        </a>
-        <a
+        <nuxt-link
+          v-for="(link, i) in legalLinks"
+          :key="link.to"
           class="footer-link w-inline-block"
-          href="https://hervest.docsend.com/view/3hq9g2wtya59nbmk"
-          target="_blank"
+          :class="{ top: i === 0 }"
+          :to="link.to"
           @click.native="scrollToTop"
         >
-          Privacy Policy
-        </a>
-        <a
-          class="footer-link w-inline-block"
-          href="https://hervest.docsend.com/view/jgpx32jjrtzectew"
-          target="_blank"
-          @click.native="scrollToTop"
-        >
-          <div>Terms of Services</div>
-        </a>
-      </div> -->
+          {{ link.label }}
+        </nuxt-link>
+      </div>
       <div class="footer-nav-wrapper">
         <div>
           <strong>Tools</strong>
@@ -159,33 +145,15 @@
     <div>
       <h4 class="cookie-notice">
         This site uses cookies.
-        <a
-          class="pink-text"
-          href="https://hervest.docsend.com/view/5k6rw5khwg9xk2b2"
-          target="_blank"
-          @click.native="scrollToTop"
-        > Cookie Policy.
-        </a>
+        <nuxt-link class="pink-text" to="/cookie-policy" @click.native="scrollToTop">
+          Cookie Policy.
+        </nuxt-link>
         I agree to the
-        <a
-          class="pink-text"
-          href="https://hervest.docsend.com/view/jgpx32jjrtzectew"
-          target="_blank"
-          @click.native="scrollToTop"
-        >
-          terms of use
-        </a>, and the
-        <a
-          class="pink-text"
-          href="https://hervest.docsend.com/view/3hq9g2wtya59nbmk"
-          target="_blank"
-          @click.native="scrollToTop"
-        >
+        <nuxt-link class="pink-text" to="/terms-and-conditions" @click.native="scrollToTop">terms of use</nuxt-link>,
+        and the
+        <nuxt-link class="pink-text" to="/disclaimer-policy" @click.native="scrollToTop">
           Disclaimer Policy.
-        </a>This Information will not be used for marketing purposes.
-        <!-- <nuxt-link to="/privacy-policy" class="pink-text" @click.native="scrollToTop">
-            Policy Link
-        </nuxt-link> -->
+        </nuxt-link>This Information will not be used for marketing purposes.
       </h4>
       <div class="footer-line" />
       <div class="copyright w-embed w-script">
@@ -196,9 +164,12 @@
 </template>
 
 <script>
+import { legalLinks } from '@/commons/legal'
+
 export default {
   data () {
     return {
+      legalLinks,
       footerData: []
     }
   },
