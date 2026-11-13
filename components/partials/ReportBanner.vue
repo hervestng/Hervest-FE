@@ -4,6 +4,7 @@
     :href="reportUrl"
     target="_blank"
     rel="noopener"
+    @click="trackClick"
   >
     <span class="report-banner__tag">New</span>
     <span class="report-banner__text">
@@ -19,7 +20,16 @@
 export default {
   data () {
     return {
-      reportUrl: 'https://report.hervest.africa/'
+      reportUrl: 'https://report.hervest.africa/?utm_source=hervest_website&utm_medium=landing_banner&utm_campaign=financial_report'
+    }
+  },
+  methods: {
+    trackClick () {
+      if (typeof window.gtag !== 'function') { return }
+      window.gtag('event', 'financial_report_click', {
+        location: 'landing_banner',
+        transport_type: 'beacon'
+      })
     }
   }
 }
