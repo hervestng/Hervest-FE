@@ -11,14 +11,16 @@
       </div>
       <div class="vision-text-block">
         <div class="vision-header">
-          {{ widgetData.vision.content.title }}
+          Our Vision
         </div>
         <div class="vision-text-wrapper">
           <div
-            v-marked="widgetData.vision.content.description"
             class="markedText"
             style="font-size: 47px; line-height: 1.3em"
-          />
+          >
+            To be an inclusive Digital Financial Services provider for the
+            advancement of women in Africa.
+          </div>
         </div>
       </div>
     </div>
