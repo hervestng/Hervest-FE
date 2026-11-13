@@ -12,13 +12,13 @@
         <p class="legal-summary">
           {{ doc.summary }}
         </p>
-        <nav class="legal-tabs" aria-label="Legal documents">
+        <nav aria-label="Legal documents" class="legal-tabs">
           <nuxt-link
             v-for="link in legalLinks"
             :key="link.to"
-            :to="link.to"
             class="legal-tab"
             exact-active-class="is-active"
+            :to="link.to"
           >
             {{ link.label }}
           </nuxt-link>
@@ -63,11 +63,6 @@
               :block="block"
             />
           </section>
-
-          <p class="legal-contact">
-            Questions about this policy? Email us at
-            <a href="mailto:hello@hervest.ng">hello@hervest.ng</a>.
-          </p>
         </article>
       </div>
     </div>
@@ -254,20 +249,6 @@ export default {
 .legal-section-number {
   margin-right: 6px;
   color: #b50182;
-}
-
-.legal-contact {
-  margin: 48px 0 0;
-  padding-top: 24px;
-  border-top: 1px solid #f0e6ee;
-  font-size: 16px;
-  line-height: 28px;
-  color: #5f5560;
-}
-
-.legal-contact a {
-  color: #b50182;
-  text-decoration: underline;
 }
 
 @media (max-width: 991px) {
