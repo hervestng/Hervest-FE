@@ -36,7 +36,14 @@ export default {
 </script>
 
 <style scoped>
+/*
+ * Below 802px the nav's menu panel (.nav-link-wrapper, z-index 5 via .nav) is parked
+ * off screen with translateY(-100%), which puts it right on top of this banner.
+ * Sit above it so the closed menu never covers the banner.
+ */
 .report-banner {
+  position: relative;
+  z-index: 6;
   display: flex;
   align-items: center;
   justify-content: center;
